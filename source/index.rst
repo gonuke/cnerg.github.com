@@ -32,15 +32,17 @@ More Information
    :maxdepth: 1
 
    archive
+   governance/main
+   people/main
+   papers/main
    projects/main
    projects/software
-   people/main
    jobs/main
-   papers/main
    infrastructure
    projects/workflow
-   codeofconduct
+   governance/codeofconduct
    Intranet <https://drive.google.com/a/wisc.edu/folderview?id=0B0PIxd5nzgICQVYwV2ozVmRxWkk&usp=sharing>
+   Lab Manual <https://drive.google.com/a/wisc.edu/folderview?id=0B0PIxd5nzgICLTJrX09GTHNQUjg&usp=sharing>
    upload
 
 
