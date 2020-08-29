@@ -97,8 +97,8 @@ html {
 }
 
 body {
-  margin: 40px auto 0;
-  width: 1260px;
+  margin: 40px 10%;
+  width: 80%;
   color: #8E8979;
   background-color: transparent;
   font: normal 100%/1.5 Verdana, sans-serif;
@@ -318,7 +318,7 @@ body {
 /*layout*/
 
 #c_container {
-  width: 1258px;
+  width: 100%;
   border-right: 1px solid #666666;
   border-left: 1px solid #666666;
   border-bottom: 2px solid #666666;
@@ -342,7 +342,7 @@ body {
 #content {
   margin-top: 20px;
   margin-left: 0;
-  padding: 0 30px 30px;
+  padding: 0 3% 0 3%;
 }
 
 #main {
@@ -682,11 +682,10 @@ body {
 }
 .page #c_container {
   padding: 0px;
-  background: url("../_static/images/page-sidebar-bg.png") repeat-y scroll right 0 #FFFFFF;
 }
 .page #content {
-  margin: 0 7px 0 0;
-  width: 940px;
+  margin: 0 0 0 0;
+  width: 70%;
   padding-top: 40px;
 }
 .page #sidebar {
@@ -697,7 +696,7 @@ body {
   border-left: 1px solid #83a86d;
   margin: 0 0 0px 0;
   padding: 20px 0px 30px 0px;
-  width: 250px;
+  width: 25%;
 }
 
 .align-right {
@@ -706,9 +705,9 @@ body {
 }
 
 #sidebar_section {
-  margin: 0 0 0 10px;
+  margin: 0 0 0 5%;
   /* position: fixed;*/
-  width: 245px;
+  width: 90%;
 }
 
 #sidebar ul, ol { list-style: none; }
