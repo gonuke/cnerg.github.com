@@ -696,7 +696,13 @@ body {
   border-left: 1px solid #83a86d;
   margin: 0 0 0px 0;
   padding: 20px 0px 30px 0px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .page #sidebar { 
   width: 25%;
+  }
 }
 
 .align-right {

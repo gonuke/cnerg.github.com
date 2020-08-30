@@ -62,8 +62,7 @@
 
 {%- block content %}
   <div id="c_container">
-  {%- block sidebar1 %} {{ uwsidebar() }} {% endblock %}
-  {%- block document %}
+    {%- block document %}
     <div id="content" class="inline-block">
       {%- if render_sidebar %}
         <div class="bodywrapper">
@@ -76,6 +75,7 @@
       {%- endif %}
       </div>
   {%- endblock %}
+  {%- block sidebar1 %} {{ uwsidebar() }} {% endblock %}
 
     </div>
 {%- endblock %}
