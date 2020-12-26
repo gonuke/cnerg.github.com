@@ -8,8 +8,9 @@ on:
 
 jobs:
   build:
-    runs-on: cnerg/cnerg.github.io-deps
-
+    runs-on: ubuntu-latest
+    container: cnerg/cnerg.github.io-deps
+    
     steps:
       - uses: actions/checkout@v2
 
