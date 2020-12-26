@@ -13,10 +13,27 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with: 
+          fetch-depth: 0
+          ref: master
 
-      - name: view the Makefile
-        run: cat Makefile
-      - name: build the site
-        run: make docker-gh-stage
-#          make docker-gh-stage,
-#          make docker-gh-push
+      - name: checkout the source directory into here
+        run: git checkout source -- source
+      - name: reset the HEAD with this new info
+        run: git reset HEAD
+      - name: clean up from any potential previous build
+        run: make clean
+      - name: build new html
+        run: make html
+      - name: copy new content into place
+        run: rsync -a ./gh-build/* .
+      - name: copy new content from dot dirs into place
+        run: rsync -a ./gh-build/.* .
+      - name: stage new content for previous
+        run: git add `(cd ./gh-build; find . -type f; cd ..)`
+      - name: cleanup
+        run: rm -rf ./source ./gh-build
+      - name: test build
+        run: ls -alR
+        
+      
