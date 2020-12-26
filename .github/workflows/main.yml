@@ -16,6 +16,7 @@ jobs:
 
       - name: build the site
         run: |
-          ls -al
+          cat Makefile,
+          make docker-gh-stage
 #          make docker-gh-stage,
 #          make docker-gh-push
