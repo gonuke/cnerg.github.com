@@ -14,9 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: view the Makefile
+        run: cat Makefile
       - name: build the site
-        run: |
-          cat Makefile,
-          make docker-gh-stage
+        run: make docker-gh-stage
 #          make docker-gh-stage,
 #          make docker-gh-push
