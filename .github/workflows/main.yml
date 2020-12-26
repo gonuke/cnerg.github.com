@@ -10,11 +10,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container: cnerg/cnerg.github.io-deps
-    
+
     steps:
       - uses: actions/checkout@v2
 
       - name: build the site
         run: |
-          make docker-gh-stage,
-          make docker-gh-push
+          pwd,
+          ls
+#          make docker-gh-stage,
+#          make docker-gh-push
