@@ -7,7 +7,8 @@ GH_SOURCE_BRANCH = source
 # GH_PUBLISH_BRANCH = repository branch that contains the rendered HTML
 GH_PUBLISH_BRANCH = master
 # GH_UPSTREAM_REPO = repository that contains the rendered HTML
-GH_UPSTREAM_REPO = upstream
+# GH_UPSTREAM_REPO = upstream
+GH_UPSTREAM_REPO = gonuke
 
 
 # Example for a gh-pages project
