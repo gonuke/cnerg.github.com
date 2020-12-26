@@ -16,7 +16,6 @@ jobs:
 
       - name: build the site
         run: |
-          pwd,
-          ls
+          ls -al
 #          make docker-gh-stage,
 #          make docker-gh-push
