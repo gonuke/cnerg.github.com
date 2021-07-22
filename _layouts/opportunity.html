@@ -9,6 +9,8 @@ layout: default
 
   <section>
     {{ content }}
-  </section>
+    <b>Posted:</b> {{ page.posted | date: date_format }}<br/>
+    <b>For full consideration,</b> apply before: {{ page.closes | date: date_format }}
+    </section>
 
 </article>

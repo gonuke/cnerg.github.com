@@ -18,7 +18,8 @@ layout: default
     {% if opportunity.active == true %}
     <dt><a href="{{ opportunity.url }}">{{ opportunity.title }}</a></dt>
     <dd>{{ opportunity.desc }}<br/>
-    Posted: {{ opportunity.posted | date: date_format }}, Closes: {{ opportunity.closes | date: date_format }}</dd>
+    Posted: {{ opportunity.posted | date: date_format }}<br/>
+    For full consideration, apply before: {{ opportunity.closes | date: date_format }}</dd>
     {% endif %}
     {% endfor %}
     </dl>
