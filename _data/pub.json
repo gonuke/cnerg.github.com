@@ -381,9 +381,13 @@
             "publisher": "American Nuclear Society",
             "place": "Denver, CO",
             "date": "April 29 2025",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -686,9 +690,13 @@
             "publisher": "",
             "place": "Las Vegas, NV",
             "date": "2024-06-19",
+            "eventPlace": "",
             "volume": "130",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -716,7 +724,7 @@
     },
     {
         "key": "CSQNQM7D",
-        "version": 30997,
+        "version": 32376,
         "library": {
             "type": "group",
             "id": 10058,
@@ -756,14 +764,25 @@
                     }
                 }
             },
+            "lastModifiedByUser": {
+                "id": 14678546,
+                "username": "katielygre",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/katielygre",
+                        "type": "text/html"
+                    }
+                }
+            },
             "creatorSummary": "Moreno et al.",
             "parsedDate": "2024-04-04",
             "numChildren": 1
         },
-        "bibtex": "\n@article{moreno_parastell_2024,\n\ttitle = {{ParaStell}: parametric modeling and neutronics support for stellarator fusion power plants},\n\tvolume = {3},\n\tissn = {2813-3412},\n\tshorttitle = {{ParaStell}},\n\turl = {https://www.frontiersin.org/articles/10.3389/fnuen.2024.1384788},\n\tdoi = {10.3389/fnuen.2024.1384788},\n\tabstract = {The three-dimensional variation inherent to stellarator geometries and fusion sources motivates three-dimensional modeling to obtain accurate results from computational modeling in support of design and analysis of first wall, blanket, and shield (FWBS) systems. Manually constructing stellarator fusion power plant geometries in computer-aided design (CAD) and defining the corresponding fusion source can be cumbersome and challenging. The open-source parametric modeling toolset ParaStell has been developed to automate construction of such geometries in low-fidelity. Low-fidelity modeling is useful during the conceptual phase of engineering design as a means of rapidly exploring the design space of a given device. The modeling capability of ParaStell includes in-vessel components and magnets, for any given stellarator configuration, using a parametric definition and plasma equilibrium data. Furthermore, the toolset automates the generation of detailed, tetrahedral neutron source definitions and DAGMC geometries for use in neutronics modeling. ParaStell assists rapid design iteration, parametric study, and design optimization of stellarator fusion cores. As a demonstration of the design iteration capability, the effect of the three-dimensional parameter space on tritium breeding and magnet shielding is investigated, using the WISTELL-D configuration as a design basis. Blanket and shield thicknesses are varied in three dimensions, using the space available between the plasma edge and magnet coils as a constraint. The corresponding effects on tritium breeding ratio and magnet heating are tallied using the open-source Monte Carlo particle transport code OpenMC. The inclusion of additional and higher-fidelity modeling capabilities is planned for ParaStell's future, as well as its implementation in machine-driven optimization.},\n\tlanguage = {English},\n\turldate = {2024-04-06},\n\tjournal = {Frontiers in Nuclear Engineering},\n\tauthor = {Moreno, Connor and Bader, Aaron and Wilson, Paul},\n\tmonth = apr,\n\tyear = {2024},\n\tnote = {Publisher: Frontiers},\n\tkeywords = {FIRE UP, Fusion, Parametric modeling, Tritium breeding, magnet heating, radial build, stellarator},\n}\n",
+        "bibtex": "\n@article{moreno_parastell_2024,\n\ttitle = {{ParaStell}: parametric modeling and neutronics support for stellarator fusion power plants},\n\tvolume = {3},\n\tissn = {2813-3412},\n\tshorttitle = {{ParaStell}},\n\turl = {https://www.frontiersin.org/articles/10.3389/fnuen.2024.1384788},\n\tdoi = {10.3389/fnuen.2024.1384788},\n\tabstract = {The three-dimensional variation inherent to stellarator geometries and fusion sources motivates three-dimensional modeling to obtain accurate results from computational modeling in support of design and analysis of first wall, blanket, and shield (FWBS) systems. Manually constructing stellarator fusion power plant geometries in computer-aided design (CAD) and defining the corresponding fusion source can be cumbersome and challenging. The open-source parametric modeling toolset ParaStell has been developed to automate construction of such geometries in low-fidelity. Low-fidelity modeling is useful during the conceptual phase of engineering design as a means of rapidly exploring the design space of a given device. The modeling capability of ParaStell includes in-vessel components and magnets, for any given stellarator configuration, using a parametric definition and plasma equilibrium data. Furthermore, the toolset automates the generation of detailed, tetrahedral neutron source definitions and DAGMC geometries for use in neutronics modeling. ParaStell assists rapid design iteration, parametric study, and design optimization of stellarator fusion cores. As a demonstration of the design iteration capability, the effect of the three-dimensional parameter space on tritium breeding and magnet shielding is investigated, using the WISTELL-D configuration as a design basis. Blanket and shield thicknesses are varied in three dimensions, using the space available between the plasma edge and magnet coils as a constraint. The corresponding effects on tritium breeding ratio and magnet heating are tallied using the open-source Monte Carlo particle transport code OpenMC. The inclusion of additional and higher-fidelity modeling capabilities is planned for ParaStell's future, as well as its implementation in machine-driven optimization.},\n\tlanguage = {English},\n\turldate = {2024-04-06},\n\tjournal = {Frontiers in Nuclear Engineering},\n\tpublisher = {Frontiers},\n\tauthor = {Moreno, Connor and Bader, Aaron and Wilson, Paul},\n\tmonth = apr,\n\tyear = {2024},\n\tkeywords = {FIRE UP, Fusion, Parametric modeling, Tritium breeding, magnet heating, radial build, stellarator},\n}\n",
         "data": {
             "key": "CSQNQM7D",
-            "version": 30997,
+            "version": 32376,
             "itemType": "journalArticle",
             "title": "ParaStell: parametric modeling and neutronics support for stellarator fusion power plants",
             "creators": [
@@ -785,7 +804,7 @@
             ],
             "abstractNote": "The three-dimensional variation inherent to stellarator geometries and fusion sources motivates three-dimensional modeling to obtain accurate results from computational modeling in support of design and analysis of first wall, blanket, and shield (FWBS) systems. Manually constructing stellarator fusion power plant geometries in computer-aided design (CAD) and defining the corresponding fusion source can be cumbersome and challenging. The open-source parametric modeling toolset ParaStell has been developed to automate construction of such geometries in low-fidelity. Low-fidelity modeling is useful during the conceptual phase of engineering design as a means of rapidly exploring the design space of a given device. The modeling capability of ParaStell includes in-vessel components and magnets, for any given stellarator configuration, using a parametric definition and plasma equilibrium data. Furthermore, the toolset automates the generation of detailed, tetrahedral neutron source definitions and DAGMC geometries for use in neutronics modeling. ParaStell assists rapid design iteration, parametric study, and design optimization of stellarator fusion cores. As a demonstration of the design iteration capability, the effect of the three-dimensional parameter space on tritium breeding and magnet shielding is investigated, using the WISTELL-D configuration as a design basis. Blanket and shield thicknesses are varied in three dimensions, using the space available between the plasma edge and magnet coils as a constraint. The corresponding effects on tritium breeding ratio and magnet heating are tallied using the open-source Monte Carlo particle transport code OpenMC. The inclusion of additional and higher-fidelity modeling capabilities is planned for ParaStell's future, as well as its implementation in machine-driven optimization.",
             "publicationTitle": "Frontiers in Nuclear Engineering",
-            "publisher": "",
+            "publisher": "Frontiers",
             "place": "",
             "date": "2024-04-04",
             "volume": "3",
@@ -812,7 +831,7 @@
             "libraryCatalog": "Frontiers",
             "callNumber": "",
             "rights": "",
-            "extra": "Publisher: Frontiers",
+            "extra": "",
             "tags": [
                 {
                     "tag": "FIRE UP"
@@ -929,9 +948,13 @@
             "publisher": "",
             "place": "San Francisco, CA",
             "date": "April 2024",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "10",
             "series": "",
+            "seriesNumber": "",
             "DOI": "10.13182/PHYSOR24-43599",
             "ISBN": "",
             "citationKey": "",
@@ -958,7 +981,7 @@
     },
     {
         "key": "936FTUAR",
-        "version": 31052,
+        "version": 32376,
         "library": {
             "type": "group",
             "id": 10058,
@@ -998,14 +1021,25 @@
                     }
                 }
             },
+            "lastModifiedByUser": {
+                "id": 14678546,
+                "username": "katielygre",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/katielygre",
+                        "type": "text/html"
+                    }
+                }
+            },
             "creatorSummary": "Stomps et al.",
             "parsedDate": "2024-01",
             "numChildren": 1
         },
-        "bibtex": "\n@article{stomps_contrastive_2024,\n\ttitle = {Contrastive {Machine} {Learning} with {Gamma} {Spectroscopy} {Data} {Augmentations} for {Detecting} {Shielded} {Radiological} {Material} {Transfers}},\n\tvolume = {12},\n\tcopyright = {http://creativecommons.org/licenses/by/3.0/},\n\tissn = {2227-7390},\n\turl = {https://www.mdpi.com/2227-7390/12/16/2518},\n\tdoi = {10.3390/math12162518},\n\tabstract = {Data analysis techniques can be powerful tools for rapidly analyzing data and extracting information that can be used in a latent space for categorizing observations between classes of data. Machine learning models that exploit learned data relationships can address a variety of nuclear nonproliferation challenges like the detection and tracking of shielded radiological material transfers. The high resource cost of manually labeling radiation spectra is a hindrance to the rapid analysis of data collected from persistent monitoring and to the adoption of supervised machine learning methods that require large volumes of curated training data. Instead, contrastive self-supervised learning on unlabeled spectra can enhance models that are built on limited labeled radiation datasets. This work demonstrates that contrastive machine learning is an effective technique for leveraging unlabeled data in detecting and characterizing nuclear material transfers demonstrated on radiation measurements collected at an Oak Ridge National Laboratory testbed, where sodium iodide detectors measure gamma radiation emitted by material transfers between the High Flux Isotope Reactor and the Radiochemical Engineering Development Center. Label-invariant data augmentations tailored for gamma radiation detection physics are used on unlabeled spectra to contrastively train an encoder, learning a complex, embedded state space with self-supervision. A linear classifier is then trained on a limited set of labeled data to distinguish transfer spectra between byproducts and tracked nuclear material using representations from the contrastively trained encoder. The optimized hyperparameter model achieves a balanced accuracy score of 80.30\\%. Any given model—that is, a trained encoder and classifier—shows preferential treatment for specific subclasses of transfer types. Regardless of the classifier complexity, a supervised classifier using contrastively trained representations achieves higher accuracy than using spectra when trained and tested on limited labeled data.},\n\tlanguage = {en},\n\tnumber = {16},\n\turldate = {2024-10-15},\n\tjournal = {Mathematics},\n\tauthor = {Stomps, Jordan R. and Wilson, Paul P. H. and Dayman, Kenneth J.},\n\tmonth = jan,\n\tyear = {2024},\n\tnote = {Number: 16\nPublisher: Multidisciplinary Digital Publishing Institute},\n\tkeywords = {contrastive learning, data analysis, gamma-ray spectroscopy, nuclear nonproliferation, radiation monitoring, semi-supervised machine learning},\n\tpages = {2518},\n}\n",
+        "bibtex": "\n@article{stomps_contrastive_2024,\n\ttitle = {Contrastive {Machine} {Learning} with {Gamma} {Spectroscopy} {Data} {Augmentations} for {Detecting} {Shielded} {Radiological} {Material} {Transfers}},\n\tvolume = {12},\n\tcopyright = {http://creativecommons.org/licenses/by/3.0/},\n\tissn = {2227-7390},\n\turl = {https://www.mdpi.com/2227-7390/12/16/2518},\n\tdoi = {10.3390/math12162518},\n\tabstract = {Data analysis techniques can be powerful tools for rapidly analyzing data and extracting information that can be used in a latent space for categorizing observations between classes of data. Machine learning models that exploit learned data relationships can address a variety of nuclear nonproliferation challenges like the detection and tracking of shielded radiological material transfers. The high resource cost of manually labeling radiation spectra is a hindrance to the rapid analysis of data collected from persistent monitoring and to the adoption of supervised machine learning methods that require large volumes of curated training data. Instead, contrastive self-supervised learning on unlabeled spectra can enhance models that are built on limited labeled radiation datasets. This work demonstrates that contrastive machine learning is an effective technique for leveraging unlabeled data in detecting and characterizing nuclear material transfers demonstrated on radiation measurements collected at an Oak Ridge National Laboratory testbed, where sodium iodide detectors measure gamma radiation emitted by material transfers between the High Flux Isotope Reactor and the Radiochemical Engineering Development Center. Label-invariant data augmentations tailored for gamma radiation detection physics are used on unlabeled spectra to contrastively train an encoder, learning a complex, embedded state space with self-supervision. A linear classifier is then trained on a limited set of labeled data to distinguish transfer spectra between byproducts and tracked nuclear material using representations from the contrastively trained encoder. The optimized hyperparameter model achieves a balanced accuracy score of 80.30\\%. Any given model—that is, a trained encoder and classifier—shows preferential treatment for specific subclasses of transfer types. Regardless of the classifier complexity, a supervised classifier using contrastively trained representations achieves higher accuracy than using spectra when trained and tested on limited labeled data.},\n\tlanguage = {en},\n\tnumber = {16},\n\turldate = {2024-10-15},\n\tjournal = {Mathematics},\n\tpublisher = {Multidisciplinary Digital Publishing Institute},\n\tauthor = {Stomps, Jordan R. and Wilson, Paul P. H. and Dayman, Kenneth J.},\n\tmonth = jan,\n\tyear = {2024},\n\tnote = {Number: 16},\n\tkeywords = {contrastive learning, data analysis, gamma-ray spectroscopy, nuclear nonproliferation, radiation monitoring, semi-supervised machine learning},\n\tpages = {2518},\n}\n",
         "data": {
             "key": "936FTUAR",
-            "version": 31052,
+            "version": 32376,
             "itemType": "journalArticle",
             "title": "Contrastive Machine Learning with Gamma Spectroscopy Data Augmentations for Detecting Shielded Radiological Material Transfers",
             "creators": [
@@ -1027,7 +1061,7 @@
             ],
             "abstractNote": "Data analysis techniques can be powerful tools for rapidly analyzing data and extracting information that can be used in a latent space for categorizing observations between classes of data. Machine learning models that exploit learned data relationships can address a variety of nuclear nonproliferation challenges like the detection and tracking of shielded radiological material transfers. The high resource cost of manually labeling radiation spectra is a hindrance to the rapid analysis of data collected from persistent monitoring and to the adoption of supervised machine learning methods that require large volumes of curated training data. Instead, contrastive self-supervised learning on unlabeled spectra can enhance models that are built on limited labeled radiation datasets. This work demonstrates that contrastive machine learning is an effective technique for leveraging unlabeled data in detecting and characterizing nuclear material transfers demonstrated on radiation measurements collected at an Oak Ridge National Laboratory testbed, where sodium iodide detectors measure gamma radiation emitted by material transfers between the High Flux Isotope Reactor and the Radiochemical Engineering Development Center. Label-invariant data augmentations tailored for gamma radiation detection physics are used on unlabeled spectra to contrastively train an encoder, learning a complex, embedded state space with self-supervision. A linear classifier is then trained on a limited set of labeled data to distinguish transfer spectra between byproducts and tracked nuclear material using representations from the contrastively trained encoder. The optimized hyperparameter model achieves a balanced accuracy score of 80.30%. Any given model—that is, a trained encoder and classifier—shows preferential treatment for specific subclasses of transfer types. Regardless of the classifier complexity, a supervised classifier using contrastively trained representations achieves higher accuracy than using spectra when trained and tested on limited labeled data.",
             "publicationTitle": "Mathematics",
-            "publisher": "",
+            "publisher": "Multidisciplinary Digital Publishing Institute",
             "place": "",
             "date": "2024/1",
             "volume": "12",
@@ -1054,7 +1088,7 @@
             "libraryCatalog": "www.mdpi.com",
             "callNumber": "",
             "rights": "http://creativecommons.org/licenses/by/3.0/",
-            "extra": "Number: 16\nPublisher: Multidisciplinary Digital Publishing Institute",
+            "extra": "Number: 16",
             "tags": [
                 {
                     "tag": "contrastive learning",
@@ -1091,7 +1125,7 @@
     },
     {
         "key": "CG8GVP6S",
-        "version": 28926,
+        "version": 32366,
         "library": {
             "type": "group",
             "id": 10058,
@@ -1131,14 +1165,25 @@
                     }
                 }
             },
+            "lastModifiedByUser": {
+                "id": 14678546,
+                "username": "katielygre",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/katielygre",
+                        "type": "text/html"
+                    }
+                }
+            },
             "creatorSummary": "Granda Duarte et al.",
             "parsedDate": "2023-11-02",
             "numChildren": 1
         },
-        "bibtex": "\n@article{granda_duarte_shutdown_2023,\n\ttitle = {Shutdown {Dose} {Rate} with {Cartesian} {Mesh} for {High}-{Energy} {Nuclear} {Systems}},\n\tvolume = {209},\n\tissn = {0029-5450},\n\turl = {https://doi.org/10.1080/00295450.2023.2205554},\n\tdoi = {10.1080/00295450.2023.2205554},\n\tabstract = {In accelerator-driven systems, charged particles and high-energy neutrons can contribute to the production of nuclides that can persist long after the system has been shut down. These nuclides release photons that contribute to the biological dose. It is essential to quantify the biological dose as a function of time after shutdown to ensure safe working conditions for laborers during maintenance procedures. The shutdown dose rate (SDR) can be calculated with the Rigorous Two-Step (R2S) method, which includes a neutron and photon transport coupled with an activation calculation. For accelerator-driven systems, calculating SDR presents challenges related to the neutron cross-sectional data available for high-energy neutrons. A tally was implemented to collect isotope production data directly in a Monte Carlo N-Particle (MCNP) calculation. The output of this RNUCS tally is then used directly in an activation calculation, bypassing the need to use cross-section data with the neutron flux to obtain the isotope production and destruction data. A mesh-based RNUCS-R2S workflow has been developed based on this tally to calculate SDR in accelerator-driven systems. This workflow operates directly on computer-aided design geometry and supports using a meshed photon source. This workflow has been verified against a cell-based RNUCS-R2S workflow. A test problem with the essential characteristics of an accelerator-driven system was created to use in this analysis. The SDR results are within 40\\% of the cell-based RNUCS-R2S results. The workflow was also validated with the spallation neutron source system. Most detectors’ SDR results are within 50\\%, with a few detectors having a significantly lower SDR result than the experimental value.},\n\tnumber = {11},\n\turldate = {2023-10-10},\n\tjournal = {Nuclear Technology},\n\tauthor = {Granda Duarte, Nancy and Popova, Irina I. and Iverson, Erik B. and Gallmeier, Franz X. and Wilson, Paul P. H.},\n\tmonth = nov,\n\tyear = {2023},\n\tnote = {Publisher: Taylor \\& Francis\n\\_eprint: https://doi.org/10.1080/00295450.2023.2205554},\n\tkeywords = {R2S, Rigorous Two-Step method, high-energy nuclear systems, radiation transport},\n\tpages = {1747--1764},\n}\n",
+        "bibtex": "\n@article{granda_duarte_shutdown_2023,\n\ttitle = {Shutdown {Dose} {Rate} with {Cartesian} {Mesh} for {High}-{Energy} {Nuclear} {Systems}},\n\tvolume = {209},\n\tissn = {0029-5450},\n\turl = {https://doi.org/10.1080/00295450.2023.2205554},\n\tdoi = {10.1080/00295450.2023.2205554},\n\tabstract = {In accelerator-driven systems, charged particles and high-energy neutrons can contribute to the production of nuclides that can persist long after the system has been shut down. These nuclides release photons that contribute to the biological dose. It is essential to quantify the biological dose as a function of time after shutdown to ensure safe working conditions for laborers during maintenance procedures. The shutdown dose rate (SDR) can be calculated with the Rigorous Two-Step (R2S) method, which includes a neutron and photon transport coupled with an activation calculation. For accelerator-driven systems, calculating SDR presents challenges related to the neutron cross-sectional data available for high-energy neutrons. A tally was implemented to collect isotope production data directly in a Monte Carlo N-Particle (MCNP) calculation. The output of this RNUCS tally is then used directly in an activation calculation, bypassing the need to use cross-section data with the neutron flux to obtain the isotope production and destruction data. A mesh-based RNUCS-R2S workflow has been developed based on this tally to calculate SDR in accelerator-driven systems. This workflow operates directly on computer-aided design geometry and supports using a meshed photon source. This workflow has been verified against a cell-based RNUCS-R2S workflow. A test problem with the essential characteristics of an accelerator-driven system was created to use in this analysis. The SDR results are within 40\\% of the cell-based RNUCS-R2S results. The workflow was also validated with the spallation neutron source system. Most detectors’ SDR results are within 50\\%, with a few detectors having a significantly lower SDR result than the experimental value.},\n\tnumber = {11},\n\turldate = {2023-10-10},\n\tjournal = {Nuclear Technology},\n\tpublisher = {Taylor \\& Francis},\n\tauthor = {Granda Duarte, Nancy and Popova, Irina I. and Iverson, Erik B. and Gallmeier, Franz X. and Wilson, Paul P. H.},\n\tmonth = nov,\n\tyear = {2023},\n\tnote = {\\_eprint: https://doi.org/10.1080/00295450.2023.2205554},\n\tkeywords = {R2S, Rigorous Two-Step method, high-energy nuclear systems, radiation transport},\n\tpages = {1747--1764},\n}\n",
         "data": {
             "key": "CG8GVP6S",
-            "version": 28926,
+            "version": 32366,
             "itemType": "journalArticle",
             "title": "Shutdown Dose Rate with Cartesian Mesh for High-Energy Nuclear Systems",
             "creators": [
@@ -1170,7 +1215,7 @@
             ],
             "abstractNote": "In accelerator-driven systems, charged particles and high-energy neutrons can contribute to the production of nuclides that can persist long after the system has been shut down. These nuclides release photons that contribute to the biological dose. It is essential to quantify the biological dose as a function of time after shutdown to ensure safe working conditions for laborers during maintenance procedures. The shutdown dose rate (SDR) can be calculated with the Rigorous Two-Step (R2S) method, which includes a neutron and photon transport coupled with an activation calculation. For accelerator-driven systems, calculating SDR presents challenges related to the neutron cross-sectional data available for high-energy neutrons. A tally was implemented to collect isotope production data directly in a Monte Carlo N-Particle (MCNP) calculation. The output of this RNUCS tally is then used directly in an activation calculation, bypassing the need to use cross-section data with the neutron flux to obtain the isotope production and destruction data. A mesh-based RNUCS-R2S workflow has been developed based on this tally to calculate SDR in accelerator-driven systems. This workflow operates directly on computer-aided design geometry and supports using a meshed photon source. This workflow has been verified against a cell-based RNUCS-R2S workflow. A test problem with the essential characteristics of an accelerator-driven system was created to use in this analysis. The SDR results are within 40% of the cell-based RNUCS-R2S results. The workflow was also validated with the spallation neutron source system. Most detectors’ SDR results are within 50%, with a few detectors having a significantly lower SDR result than the experimental value.",
             "publicationTitle": "Nuclear Technology",
-            "publisher": "",
+            "publisher": "Taylor & Francis",
             "place": "",
             "date": "2023-11-02",
             "volume": "209",
@@ -1197,7 +1242,7 @@
             "libraryCatalog": "Taylor and Francis+NEJM",
             "callNumber": "",
             "rights": "",
-            "extra": "Publisher: Taylor & Francis\n_eprint: https://doi.org/10.1080/00295450.2023.2205554",
+            "extra": "_eprint: https://doi.org/10.1080/00295450.2023.2205554",
             "tags": [
                 {
                     "tag": "R2S",
@@ -1300,9 +1345,13 @@
             "publisher": "",
             "place": "Washington D.C.",
             "date": "November 2023",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -1328,7 +1377,7 @@
     },
     {
         "key": "2U8X8PY4",
-        "version": 28577,
+        "version": 32364,
         "library": {
             "type": "group",
             "id": 10058,
@@ -1368,14 +1417,25 @@
                     }
                 }
             },
+            "lastModifiedByUser": {
+                "id": 14678546,
+                "username": "katielygre",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/katielygre",
+                        "type": "text/html"
+                    }
+                }
+            },
             "creatorSummary": "Stomps et al.",
             "parsedDate": "2023-09",
             "numChildren": 1
         },
-        "bibtex": "\n@article{stomps_snm_2023,\n\ttitle = {{SNM} {Radiation} {Signature} {Classification} {Using} {Different} {Semi}-{Supervised} {Machine} {Learning} {Models}},\n\tvolume = {4},\n\tcopyright = {http://creativecommons.org/licenses/by/3.0/},\n\tissn = {2673-4362},\n\turl = {https://www.mdpi.com/2673-4362/4/3/32},\n\tdoi = {10.3390/jne4030032},\n\tabstract = {The timely detection of special nuclear material (SNM) transfers between nuclear facilities is an important monitoring objective in nuclear nonproliferation. Persistent monitoring enabled by successful detection and characterization of radiological material movements could greatly enhance the nuclear nonproliferation mission in a range of applications. Supervised machine learning can be used to signal detections when material is present if a model is trained on sufficient volumes of labeled measurements. However, the nuclear monitoring data needed to train robust machine learning models can be costly to label since radiation spectra may require strict scrutiny for characterization. Therefore, this work investigates the application of semi-supervised learning to utilize both labeled and unlabeled data. As a demonstration experiment, radiation measurements from sodium iodide (NaI) detectors are provided by the Multi-Informatics for Nuclear Operating Scenarios (MINOS) venture at Oak Ridge National Laboratory (ORNL) as sample data. Anomalous measurements are identified using a method of statistical hypothesis testing. After background estimation, an energy-dependent spectroscopic analysis is used to characterize an anomaly based on its radiation signatures. In the absence of ground-truth information, a labeling heuristic provides data necessary for training and testing machine learning models. Supervised logistic regression serves as a baseline to compare three semi-supervised machine learning models: co-training, label propagation, and a convolutional neural network (CNN). In each case, the semi-supervised models outperform logistic regression, suggesting that unlabeled data can be valuable when training and demonstrating value in semi-supervised nonproliferation implementations.},\n\tlanguage = {en},\n\tnumber = {3},\n\turldate = {2023-07-12},\n\tjournal = {Journal of Nuclear Engineering},\n\tauthor = {Stomps, Jordan R. and Wilson, Paul P. H. and Dayman, Kenneth J. and Willis, Michael J. and Ghawaly, James M. and Archer, Daniel E.},\n\tmonth = sep,\n\tyear = {2023},\n\tnote = {Number: 3\nPublisher: Multidisciplinary Digital Publishing Institute},\n\tkeywords = {data analysis, gamma-ray spectroscopy, nuclear nonproliferation, radiation monitoring, semi-supervised machine learning},\n\tpages = {448--466},\n}\n",
+        "bibtex": "\n@article{stomps_snm_2023,\n\ttitle = {{SNM} {Radiation} {Signature} {Classification} {Using} {Different} {Semi}-{Supervised} {Machine} {Learning} {Models}},\n\tvolume = {4},\n\tcopyright = {http://creativecommons.org/licenses/by/3.0/},\n\tissn = {2673-4362},\n\turl = {https://www.mdpi.com/2673-4362/4/3/32},\n\tdoi = {10.3390/jne4030032},\n\tabstract = {The timely detection of special nuclear material (SNM) transfers between nuclear facilities is an important monitoring objective in nuclear nonproliferation. Persistent monitoring enabled by successful detection and characterization of radiological material movements could greatly enhance the nuclear nonproliferation mission in a range of applications. Supervised machine learning can be used to signal detections when material is present if a model is trained on sufficient volumes of labeled measurements. However, the nuclear monitoring data needed to train robust machine learning models can be costly to label since radiation spectra may require strict scrutiny for characterization. Therefore, this work investigates the application of semi-supervised learning to utilize both labeled and unlabeled data. As a demonstration experiment, radiation measurements from sodium iodide (NaI) detectors are provided by the Multi-Informatics for Nuclear Operating Scenarios (MINOS) venture at Oak Ridge National Laboratory (ORNL) as sample data. Anomalous measurements are identified using a method of statistical hypothesis testing. After background estimation, an energy-dependent spectroscopic analysis is used to characterize an anomaly based on its radiation signatures. In the absence of ground-truth information, a labeling heuristic provides data necessary for training and testing machine learning models. Supervised logistic regression serves as a baseline to compare three semi-supervised machine learning models: co-training, label propagation, and a convolutional neural network (CNN). In each case, the semi-supervised models outperform logistic regression, suggesting that unlabeled data can be valuable when training and demonstrating value in semi-supervised nonproliferation implementations.},\n\tlanguage = {en},\n\tnumber = {3},\n\turldate = {2023-07-12},\n\tjournal = {Journal of Nuclear Engineering},\n\tpublisher = {Multidisciplinary Digital Publishing Institute},\n\tauthor = {Stomps, Jordan R. and Wilson, Paul P. H. and Dayman, Kenneth J. and Willis, Michael J. and Ghawaly, James M. and Archer, Daniel E.},\n\tmonth = sep,\n\tyear = {2023},\n\tnote = {Number: 3},\n\tkeywords = {data analysis, gamma-ray spectroscopy, nuclear nonproliferation, radiation monitoring, semi-supervised machine learning},\n\tpages = {448--466},\n}\n",
         "data": {
             "key": "2U8X8PY4",
-            "version": 28577,
+            "version": 32364,
             "itemType": "journalArticle",
             "title": "SNM Radiation Signature Classification Using Different Semi-Supervised Machine Learning Models",
             "creators": [
@@ -1412,7 +1472,7 @@
             ],
             "abstractNote": "The timely detection of special nuclear material (SNM) transfers between nuclear facilities is an important monitoring objective in nuclear nonproliferation. Persistent monitoring enabled by successful detection and characterization of radiological material movements could greatly enhance the nuclear nonproliferation mission in a range of applications. Supervised machine learning can be used to signal detections when material is present if a model is trained on sufficient volumes of labeled measurements. However, the nuclear monitoring data needed to train robust machine learning models can be costly to label since radiation spectra may require strict scrutiny for characterization. Therefore, this work investigates the application of semi-supervised learning to utilize both labeled and unlabeled data. As a demonstration experiment, radiation measurements from sodium iodide (NaI) detectors are provided by the Multi-Informatics for Nuclear Operating Scenarios (MINOS) venture at Oak Ridge National Laboratory (ORNL) as sample data. Anomalous measurements are identified using a method of statistical hypothesis testing. After background estimation, an energy-dependent spectroscopic analysis is used to characterize an anomaly based on its radiation signatures. In the absence of ground-truth information, a labeling heuristic provides data necessary for training and testing machine learning models. Supervised logistic regression serves as a baseline to compare three semi-supervised machine learning models: co-training, label propagation, and a convolutional neural network (CNN). In each case, the semi-supervised models outperform logistic regression, suggesting that unlabeled data can be valuable when training and demonstrating value in semi-supervised nonproliferation implementations.",
             "publicationTitle": "Journal of Nuclear Engineering",
-            "publisher": "",
+            "publisher": "Multidisciplinary Digital Publishing Institute",
             "place": "",
             "date": "2023/9",
             "volume": "4",
@@ -1439,7 +1499,7 @@
             "libraryCatalog": "www.mdpi.com",
             "callNumber": "",
             "rights": "http://creativecommons.org/licenses/by/3.0/",
-            "extra": "Number: 3\nPublisher: Multidisciplinary Digital Publishing Institute",
+            "extra": "Number: 3",
             "tags": [
                 {
                     "tag": "data analysis",
@@ -1550,9 +1610,13 @@
             "publisher": "",
             "place": "Niagara Falls, Ontario, Canada",
             "date": "August 2023",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "10",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -1579,7 +1643,7 @@
     },
     {
         "key": "K76VZVHA",
-        "version": 28265,
+        "version": 32371,
         "library": {
             "type": "group",
             "id": 10058,
@@ -1619,14 +1683,25 @@
                     }
                 }
             },
+            "lastModifiedByUser": {
+                "id": 14678546,
+                "username": "katielygre",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/katielygre",
+                        "type": "text/html"
+                    }
+                }
+            },
             "creatorSummary": "Ruegsegger et al.",
             "parsedDate": "2023-01-24",
             "numChildren": 2
         },
-        "bibtex": "\n@article{ruegsegger_scoping_2023,\n\ttitle = {Scoping {Studies} for a {Lead}-{Lithium}-{Cooled}, {Minor}-{Actinide}-{Burning}, {Fission}-{Fusion} {Hybrid} {Reactor} {Design}},\n\tissn = {0029-5639},\n\turl = {https://www.tandfonline.com/doi/abs/10.1080/00295639.2022.2154118},\n\tdoi = {10.1080/00295639.2022.2154118},\n\tabstract = {A feasibility study of a subcritical fission-fusion hybrid reactor using lead-lithium eutectic as a coolant and minor actinides (MAs) as fuel is presented. Such a reactor could support the fission community by transmuting MAs and the fusion community by breeding tritium. The feasibility of such a reactor for the burnup of MAs is assessed in terms of burnup performance, tritium breeding, and safety characteristics. Tandem mirrors are a promising neutron source technology, and a deuterium-tritium tandem mirror is considered here for the neutron source with power Psource = 1.13 MW assumed for scoping purposes. Subcritical reactivities from keff = 0.9800 to keff = 0.9950 were considered, representing the initial reference for subcritical reactivity and the assessed upper limit, respectively. Stability analyses indicated the reactivity would be stable under perturbations of fuel, coolant, and inlet temperatures, with a positive reactivity insertion expected during reactor shutdown. This keff range corresponded to nuclear heating values of 150 to 650 MW and mass burn rates of 53 to 216 kg/year. The upper mass burn rate limit would require 1110 reactor years with a capacity factor of 0.9 to fission the global supply of MAs and could offset the annual U.S. MA production with eight reactors. Tritium breeding was assessed for keff = 0.9800 and 3.795\\% 6Li enrichment in the coolant, and a tritium breeding ratio of 1.602 ± 0.017 was tallied, suggesting the reactor could, without elevated 6Li enrichment, produce tritium to both sustain operation and supply tritium for other fusion devices. Time-series modeling of fuel burnup was conducted for a four-batch loading scheme and three different fuel residence times at keff = 0.9800, which showed system performance would drop with burnup, and that the rate of this drop was lower for longer fuel residence times, motivating a means of reactivity control. Last, changes in fuel composition with burnup were assessed for relative concentrations of MAs, transmutation products, and fission products. The breeding of plutonium in the blanket was calculated and found to be of minimal proliferation concern.},\n\turldate = {2023-01-24},\n\tjournal = {Nuclear Science and Engineering},\n\tauthor = {Ruegsegger, Joshua and Moreno, Connor and Nyberg, Matthew and Bohm, Tim and Wilson, Paul P. H. and Lindley, Ben},\n\tmonth = jan,\n\tyear = {2023},\n\tnote = {Publisher: Taylor \\& Francis\n\\_eprint: https://www.tandfonline.com/doi/pdf/10.1080/00295639.2022.2154118},\n\tkeywords = {Subcritical, burnup, fission-fusion hybrid, lead lithium, minor actinide},\n\tpages = {1--17},\n}\n",
+        "bibtex": "\n@article{ruegsegger_scoping_2023,\n\ttitle = {Scoping {Studies} for a {Lead}-{Lithium}-{Cooled}, {Minor}-{Actinide}-{Burning}, {Fission}-{Fusion} {Hybrid} {Reactor} {Design}},\n\tissn = {0029-5639},\n\turl = {https://www.tandfonline.com/doi/abs/10.1080/00295639.2022.2154118},\n\tdoi = {10.1080/00295639.2022.2154118},\n\tabstract = {A feasibility study of a subcritical fission-fusion hybrid reactor using lead-lithium eutectic as a coolant and minor actinides (MAs) as fuel is presented. Such a reactor could support the fission community by transmuting MAs and the fusion community by breeding tritium. The feasibility of such a reactor for the burnup of MAs is assessed in terms of burnup performance, tritium breeding, and safety characteristics. Tandem mirrors are a promising neutron source technology, and a deuterium-tritium tandem mirror is considered here for the neutron source with power Psource = 1.13 MW assumed for scoping purposes. Subcritical reactivities from keff = 0.9800 to keff = 0.9950 were considered, representing the initial reference for subcritical reactivity and the assessed upper limit, respectively. Stability analyses indicated the reactivity would be stable under perturbations of fuel, coolant, and inlet temperatures, with a positive reactivity insertion expected during reactor shutdown. This keff range corresponded to nuclear heating values of 150 to 650 MW and mass burn rates of 53 to 216 kg/year. The upper mass burn rate limit would require 1110 reactor years with a capacity factor of 0.9 to fission the global supply of MAs and could offset the annual U.S. MA production with eight reactors. Tritium breeding was assessed for keff = 0.9800 and 3.795\\% 6Li enrichment in the coolant, and a tritium breeding ratio of 1.602 ± 0.017 was tallied, suggesting the reactor could, without elevated 6Li enrichment, produce tritium to both sustain operation and supply tritium for other fusion devices. Time-series modeling of fuel burnup was conducted for a four-batch loading scheme and three different fuel residence times at keff = 0.9800, which showed system performance would drop with burnup, and that the rate of this drop was lower for longer fuel residence times, motivating a means of reactivity control. Last, changes in fuel composition with burnup were assessed for relative concentrations of MAs, transmutation products, and fission products. The breeding of plutonium in the blanket was calculated and found to be of minimal proliferation concern.},\n\turldate = {2023-01-24},\n\tjournal = {Nuclear Science and Engineering},\n\tpublisher = {Taylor \\& Francis},\n\tauthor = {Ruegsegger, Joshua and Moreno, Connor and Nyberg, Matthew and Bohm, Tim and Wilson, Paul P. H. and Lindley, Ben},\n\tmonth = jan,\n\tyear = {2023},\n\tnote = {\\_eprint: https://www.tandfonline.com/doi/pdf/10.1080/00295639.2022.2154118},\n\tkeywords = {Subcritical, burnup, fission-fusion hybrid, lead lithium, minor actinide},\n\tpages = {1--17},\n}\n",
         "data": {
             "key": "K76VZVHA",
-            "version": 28265,
+            "version": 32371,
             "itemType": "journalArticle",
             "title": "Scoping Studies for a Lead-Lithium-Cooled, Minor-Actinide-Burning, Fission-Fusion Hybrid Reactor Design",
             "creators": [
@@ -1663,7 +1738,7 @@
             ],
             "abstractNote": "A feasibility study of a subcritical fission-fusion hybrid reactor using lead-lithium eutectic as a coolant and minor actinides (MAs) as fuel is presented. Such a reactor could support the fission community by transmuting MAs and the fusion community by breeding tritium. The feasibility of such a reactor for the burnup of MAs is assessed in terms of burnup performance, tritium breeding, and safety characteristics. Tandem mirrors are a promising neutron source technology, and a deuterium-tritium tandem mirror is considered here for the neutron source with power Psource = 1.13 MW assumed for scoping purposes. Subcritical reactivities from keff = 0.9800 to keff = 0.9950 were considered, representing the initial reference for subcritical reactivity and the assessed upper limit, respectively. Stability analyses indicated the reactivity would be stable under perturbations of fuel, coolant, and inlet temperatures, with a positive reactivity insertion expected during reactor shutdown. This keff range corresponded to nuclear heating values of 150 to 650 MW and mass burn rates of 53 to 216 kg/year. The upper mass burn rate limit would require 1110 reactor years with a capacity factor of 0.9 to fission the global supply of MAs and could offset the annual U.S. MA production with eight reactors. Tritium breeding was assessed for keff = 0.9800 and 3.795% 6Li enrichment in the coolant, and a tritium breeding ratio of 1.602 ± 0.017 was tallied, suggesting the reactor could, without elevated 6Li enrichment, produce tritium to both sustain operation and supply tritium for other fusion devices. Time-series modeling of fuel burnup was conducted for a four-batch loading scheme and three different fuel residence times at keff = 0.9800, which showed system performance would drop with burnup, and that the rate of this drop was lower for longer fuel residence times, motivating a means of reactivity control. Last, changes in fuel composition with burnup were assessed for relative concentrations of MAs, transmutation products, and fission products. The breeding of plutonium in the blanket was calculated and found to be of minimal proliferation concern.",
             "publicationTitle": "Nuclear Science and Engineering",
-            "publisher": "",
+            "publisher": "Taylor & Francis",
             "place": "",
             "date": "2023-01-24",
             "volume": "",
@@ -1690,7 +1765,7 @@
             "libraryCatalog": "Taylor and Francis+NEJM",
             "callNumber": "",
             "rights": "",
-            "extra": "Publisher: Taylor & Francis\n_eprint: https://www.tandfonline.com/doi/pdf/10.1080/00295639.2022.2154118",
+            "extra": "_eprint: https://www.tandfonline.com/doi/pdf/10.1080/00295639.2022.2154118",
             "tags": [
                 {
                     "tag": "Subcritical",
@@ -1723,7 +1798,7 @@
     },
     {
         "key": "7EJ4AFK3",
-        "version": 30599,
+        "version": 32336,
         "library": {
             "type": "group",
             "id": 10058,
@@ -1763,14 +1838,25 @@
                     }
                 }
             },
+            "lastModifiedByUser": {
+                "id": 14678546,
+                "username": "katielygre",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/katielygre",
+                        "type": "text/html"
+                    }
+                }
+            },
             "creatorSummary": "Harb et al.",
             "parsedDate": "2023-01-02",
             "numChildren": 1
         },
-        "bibtex": "\n@article{harb_uncertainty_2023,\n\ttitle = {Uncertainty {Quantification} of the {Decay} {Gamma} {Source} in {Mesh}-{Based} {Shutdown} {Dose} {Rate} {Calculations}},\n\tvolume = {79},\n\tissn = {1536-1055},\n\turl = {https://doi.org/10.1080/15361055.2022.2115831},\n\tdoi = {10.1080/15361055.2022.2115831},\n\tabstract = {In fusion energy systems, part of the design effort is dedicated to the assessment of the shutdown dose rate (SDR) due to the decay photons that will be emitted from activated components. Monte Carlo transport codes are often used to obtain the neutron flux distribution in the problem domain. The neutron flux distribution is used in the rigorous 2-step (R2S) workflow to obtain the photon emission density distribution of decaying radionuclides. The photon emission density is then used as an input for a dedicated photon transport step to calculate the SDR. In this paper, the uncertainty of the decay gamma source due to the uncertainty of the neutron flux distribution in the R2S workflow is investigated. A scheme is developed to estimate the uncertainty of the decay gamma source, building on the concept of groupwise transmutation and using standard error propagation techniques. The applicability of the newly developed scheme is then demonstrated on one of the conceptual designs of the fusion nuclear science facility.},\n\tnumber = {1},\n\turldate = {2022-12-14},\n\tjournal = {Fusion Science and Technology},\n\tauthor = {Harb, M. and Davis, A. and Wilson, P. P. H.},\n\tmonth = jan,\n\tyear = {2023},\n\tnote = {Publisher: Taylor \\& Francis\n\\_eprint: https://doi.org/10.1080/15361055.2022.2115831},\n\tkeywords = {DAGMC, FIRE MIT, Uncertainty propagation, fusion nuclear science facility, rigorous 2-step workflow, shutdown dose rate},\n\tpages = {1--12},\n}\n",
+        "bibtex": "\n@article{harb_uncertainty_2023,\n\ttitle = {Uncertainty {Quantification} of the {Decay} {Gamma} {Source} in {Mesh}-{Based} {Shutdown} {Dose} {Rate} {Calculations}},\n\tvolume = {79},\n\tissn = {1536-1055},\n\turl = {https://doi.org/10.1080/15361055.2022.2115831},\n\tdoi = {10.1080/15361055.2022.2115831},\n\tabstract = {In fusion energy systems, part of the design effort is dedicated to the assessment of the shutdown dose rate (SDR) due to the decay photons that will be emitted from activated components. Monte Carlo transport codes are often used to obtain the neutron flux distribution in the problem domain. The neutron flux distribution is used in the rigorous 2-step (R2S) workflow to obtain the photon emission density distribution of decaying radionuclides. The photon emission density is then used as an input for a dedicated photon transport step to calculate the SDR. In this paper, the uncertainty of the decay gamma source due to the uncertainty of the neutron flux distribution in the R2S workflow is investigated. A scheme is developed to estimate the uncertainty of the decay gamma source, building on the concept of groupwise transmutation and using standard error propagation techniques. The applicability of the newly developed scheme is then demonstrated on one of the conceptual designs of the fusion nuclear science facility.},\n\tnumber = {1},\n\turldate = {2022-12-14},\n\tjournal = {Fusion Science and Technology},\n\tpublisher = {Taylor \\& Francis},\n\tauthor = {Harb, M. and Davis, A. and Wilson, P. P. H.},\n\tmonth = jan,\n\tyear = {2023},\n\tnote = {\\_eprint: https://doi.org/10.1080/15361055.2022.2115831},\n\tkeywords = {DAGMC, FIRE MIT, Uncertainty propagation, fusion nuclear science facility, rigorous 2-step workflow, shutdown dose rate},\n\tpages = {1--12},\n}\n",
         "data": {
             "key": "7EJ4AFK3",
-            "version": 30599,
+            "version": 32336,
             "itemType": "journalArticle",
             "title": "Uncertainty Quantification of the Decay Gamma Source in Mesh-Based Shutdown Dose Rate Calculations",
             "creators": [
@@ -1792,7 +1878,7 @@
             ],
             "abstractNote": "In fusion energy systems, part of the design effort is dedicated to the assessment of the shutdown dose rate (SDR) due to the decay photons that will be emitted from activated components. Monte Carlo transport codes are often used to obtain the neutron flux distribution in the problem domain. The neutron flux distribution is used in the rigorous 2-step (R2S) workflow to obtain the photon emission density distribution of decaying radionuclides. The photon emission density is then used as an input for a dedicated photon transport step to calculate the SDR. In this paper, the uncertainty of the decay gamma source due to the uncertainty of the neutron flux distribution in the R2S workflow is investigated. A scheme is developed to estimate the uncertainty of the decay gamma source, building on the concept of groupwise transmutation and using standard error propagation techniques. The applicability of the newly developed scheme is then demonstrated on one of the conceptual designs of the fusion nuclear science facility.",
             "publicationTitle": "Fusion Science and Technology",
-            "publisher": "",
+            "publisher": "Taylor & Francis",
             "place": "",
             "date": "2023-01-02",
             "volume": "79",
@@ -1819,7 +1905,7 @@
             "libraryCatalog": "Taylor and Francis+NEJM",
             "callNumber": "",
             "rights": "",
-            "extra": "Publisher: Taylor & Francis\n_eprint: https://doi.org/10.1080/15361055.2022.2115831",
+            "extra": "_eprint: https://doi.org/10.1080/15361055.2022.2115831",
             "tags": [
                 {
                     "tag": "DAGMC",
@@ -1923,9 +2009,13 @@
             "publisher": "",
             "place": "Seattle, WA, USA",
             "date": "2022-09-25 9/25/22-9/29/22",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -1951,7 +2041,7 @@
     },
     {
         "key": "TTNBLX3R",
-        "version": 27196,
+        "version": 32344,
         "library": {
             "type": "group",
             "id": 10058,
@@ -1991,14 +2081,25 @@
                     }
                 }
             },
+            "lastModifiedByUser": {
+                "id": 14678546,
+                "username": "katielygre",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/katielygre",
+                        "type": "text/html"
+                    }
+                }
+            },
             "creatorSummary": "ZHANG et al.",
             "parsedDate": "2022-07",
             "numChildren": 1
         },
-        "bibtex": "\n@article{zhang_implementation_2022,\n\ttitle = {Implementation and application of {PyNE} sub-voxel {R2S} for shutdown dose rate analysis},\n\tvolume = {24},\n\tissn = {1009-0630},\n\turl = {https://dx.doi.org/10.1088/2058-6272/ac6be3},\n\tdoi = {10.1088/2058-6272/ac6be3},\n\tabstract = {PyNE R2S is a mesh-based R2S implementation with the capability of performing shutdown dose rate (SDR) analysis directly on CAD geometry with Cartesian or tetrahedral meshes. It supports advanced variance reduction for fusion energy systems. However, the assumption of homogenized materials of PyNE R2S with a Cartesian mesh throughout a mesh voxel introduces an approximation in the case where a voxel covers multiple non-void cells. This work implements a sub-voxel method to add fidelity to PyNE R2S with a Cartesian mesh during the process of activation and photon source sampling by performing independent inventory calculations for each cell within a mesh voxel and using the results of those independent calculations to sample the photon source more precisely. PyNE sub-voxel R2S has been verified with the Frascati Neutron Generator (FNG)-ITER and ITER computational shutdown dose rate benchmark problems. The results for sub-voxel R2S show satisfactory agreement with the experimental values or reference results. PyNE sub-voxel R2S has been applied to the shutdown dose rate calculation of the Chinese Fusion Engineering Testing Reactor (CFETR). In conclusion, sub-voxel R2S is a reliable tool for SDR calculation and obtains more accurate results with the same voxel size than voxel R2S.},\n\tlanguage = {en},\n\tnumber = {9},\n\turldate = {2022-10-27},\n\tjournal = {Plasma Science and Technology},\n\tauthor = {ZHANG, Xiaokang and SHRIWISE, Patrick C. and LIU, Songlin and WILSON, Paul P. H.},\n\tmonth = jul,\n\tyear = {2022},\n\tnote = {Publisher: IOP Publishing},\n\tpages = {095603},\n}\n",
+        "bibtex": "\n@article{zhang_implementation_2022,\n\ttitle = {Implementation and application of {PyNE} sub-voxel {R2S} for shutdown dose rate analysis},\n\tvolume = {24},\n\tissn = {1009-0630},\n\turl = {https://dx.doi.org/10.1088/2058-6272/ac6be3},\n\tdoi = {10.1088/2058-6272/ac6be3},\n\tabstract = {PyNE R2S is a mesh-based R2S implementation with the capability of performing shutdown dose rate (SDR) analysis directly on CAD geometry with Cartesian or tetrahedral meshes. It supports advanced variance reduction for fusion energy systems. However, the assumption of homogenized materials of PyNE R2S with a Cartesian mesh throughout a mesh voxel introduces an approximation in the case where a voxel covers multiple non-void cells. This work implements a sub-voxel method to add fidelity to PyNE R2S with a Cartesian mesh during the process of activation and photon source sampling by performing independent inventory calculations for each cell within a mesh voxel and using the results of those independent calculations to sample the photon source more precisely. PyNE sub-voxel R2S has been verified with the Frascati Neutron Generator (FNG)-ITER and ITER computational shutdown dose rate benchmark problems. The results for sub-voxel R2S show satisfactory agreement with the experimental values or reference results. PyNE sub-voxel R2S has been applied to the shutdown dose rate calculation of the Chinese Fusion Engineering Testing Reactor (CFETR). In conclusion, sub-voxel R2S is a reliable tool for SDR calculation and obtains more accurate results with the same voxel size than voxel R2S.},\n\tlanguage = {en},\n\tnumber = {9},\n\turldate = {2022-10-27},\n\tjournal = {Plasma Science and Technology},\n\tpublisher = {IOP Publishing},\n\tauthor = {ZHANG, Xiaokang and SHRIWISE, Patrick C. and LIU, Songlin and WILSON, Paul P. H.},\n\tmonth = jul,\n\tyear = {2022},\n\tpages = {095603},\n}\n",
         "data": {
             "key": "TTNBLX3R",
-            "version": 27196,
+            "version": 32344,
             "itemType": "journalArticle",
             "title": "Implementation and application of PyNE sub-voxel R2S for shutdown dose rate analysis",
             "creators": [
@@ -2025,7 +2126,7 @@
             ],
             "abstractNote": "PyNE R2S is a mesh-based R2S implementation with the capability of performing shutdown dose rate (SDR) analysis directly on CAD geometry with Cartesian or tetrahedral meshes. It supports advanced variance reduction for fusion energy systems. However, the assumption of homogenized materials of PyNE R2S with a Cartesian mesh throughout a mesh voxel introduces an approximation in the case where a voxel covers multiple non-void cells. This work implements a sub-voxel method to add fidelity to PyNE R2S with a Cartesian mesh during the process of activation and photon source sampling by performing independent inventory calculations for each cell within a mesh voxel and using the results of those independent calculations to sample the photon source more precisely. PyNE sub-voxel R2S has been verified with the Frascati Neutron Generator (FNG)-ITER and ITER computational shutdown dose rate benchmark problems. The results for sub-voxel R2S show satisfactory agreement with the experimental values or reference results. PyNE sub-voxel R2S has been applied to the shutdown dose rate calculation of the Chinese Fusion Engineering Testing Reactor (CFETR). In conclusion, sub-voxel R2S is a reliable tool for SDR calculation and obtains more accurate results with the same voxel size than voxel R2S.",
             "publicationTitle": "Plasma Science and Technology",
-            "publisher": "",
+            "publisher": "IOP Publishing",
             "place": "",
             "date": "2022-07",
             "volume": "24",
@@ -2052,7 +2153,7 @@
             "libraryCatalog": "Institute of Physics",
             "callNumber": "",
             "rights": "",
-            "extra": "Publisher: IOP Publishing",
+            "extra": "",
             "tags": [],
             "collections": [
                 "UKXV4KID"
@@ -2403,7 +2504,7 @@
     },
     {
         "key": "7D88Y9FT",
-        "version": 26454,
+        "version": 32363,
         "library": {
             "type": "group",
             "id": 10058,
@@ -2443,14 +2544,25 @@
                     }
                 }
             },
+            "lastModifiedByUser": {
+                "id": 14678546,
+                "username": "katielygre",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/katielygre",
+                        "type": "text/html"
+                    }
+                }
+            },
             "creatorSummary": "Buono et al.",
             "parsedDate": "2021-07-04",
             "numChildren": 2
         },
-        "bibtex": "\n@article{buono_its_2021,\n\ttitle = {It’s time to reignite {US}-{Russia} cooperation in space. {Nuclear} power may hold the key},\n\tvolume = {77},\n\tissn = {0096-3402},\n\turl = {https://doi.org/10.1080/00963402.2021.1941598},\n\tdoi = {10.1080/00963402.2021.1941598},\n\tabstract = {As US-Russia tensions in space have increased over the last several years, cooperation in space nuclear research presents itself as one opportunity to both ease bilateral relations and develop the technologies needed for the next generation of crewed space missions. The authors suggest that the United States and the Russian Federation have complementary needs and strengths in nuclear space technologies, particularly as they pertain to deep space propulsion and utilization of space resources.},\n\tnumber = {4},\n\turldate = {2022-02-24},\n\tjournal = {Bulletin of the Atomic Scientists},\n\tauthor = {Buono, Stephen and Hecla, Jake and Kobezskii, Vladimir and Mummah, Katie and de Troullioud de Lanversin, Julien},\n\tmonth = jul,\n\tyear = {2021},\n\tnote = {Publisher: Routledge\n\\_eprint: https://doi.org/10.1080/00963402.2021.1941598},\n\tkeywords = {Mars Oxygen In-Situ Resource Utilization Experiment, TOPAZ International Program, US-Russia space cooperation, in situ resource utilization, nuclear thermal propulsion},\n\tpages = {203--206},\n}\n",
+        "bibtex": "\n@article{buono_its_2021,\n\ttitle = {It’s time to reignite {US}-{Russia} cooperation in space. {Nuclear} power may hold the key},\n\tvolume = {77},\n\tissn = {0096-3402},\n\turl = {https://doi.org/10.1080/00963402.2021.1941598},\n\tdoi = {10.1080/00963402.2021.1941598},\n\tabstract = {As US-Russia tensions in space have increased over the last several years, cooperation in space nuclear research presents itself as one opportunity to both ease bilateral relations and develop the technologies needed for the next generation of crewed space missions. The authors suggest that the United States and the Russian Federation have complementary needs and strengths in nuclear space technologies, particularly as they pertain to deep space propulsion and utilization of space resources.},\n\tnumber = {4},\n\turldate = {2022-02-24},\n\tjournal = {Bulletin of the Atomic Scientists},\n\tpublisher = {Routledge},\n\tauthor = {Buono, Stephen and Hecla, Jake and Kobezskii, Vladimir and Mummah, Katie and de Troullioud de Lanversin, Julien},\n\tmonth = jul,\n\tyear = {2021},\n\tnote = {\\_eprint: https://doi.org/10.1080/00963402.2021.1941598},\n\tkeywords = {Mars Oxygen In-Situ Resource Utilization Experiment, TOPAZ International Program, US-Russia space cooperation, in situ resource utilization, nuclear thermal propulsion},\n\tpages = {203--206},\n}\n",
         "data": {
             "key": "7D88Y9FT",
-            "version": 26454,
+            "version": 32363,
             "itemType": "journalArticle",
             "title": "It’s time to reignite US-Russia cooperation in space. Nuclear power may hold the key",
             "creators": [
@@ -2482,7 +2594,7 @@
             ],
             "abstractNote": "As US-Russia tensions in space have increased over the last several years, cooperation in space nuclear research presents itself as one opportunity to both ease bilateral relations and develop the technologies needed for the next generation of crewed space missions. The authors suggest that the United States and the Russian Federation have complementary needs and strengths in nuclear space technologies, particularly as they pertain to deep space propulsion and utilization of space resources.",
             "publicationTitle": "Bulletin of the Atomic Scientists",
-            "publisher": "",
+            "publisher": "Routledge",
             "place": "",
             "date": "July 4, 2021",
             "volume": "77",
@@ -2509,7 +2621,7 @@
             "libraryCatalog": "Taylor and Francis+NEJM",
             "callNumber": "",
             "rights": "",
-            "extra": "Publisher: Routledge\n_eprint: https://doi.org/10.1080/00963402.2021.1941598",
+            "extra": "_eprint: https://doi.org/10.1080/00963402.2021.1941598",
             "tags": [
                 {
                     "tag": "Mars Oxygen In-Situ Resource Utilization Experiment",
@@ -2542,7 +2654,7 @@
     },
     {
         "key": "SXSAFPD5",
-        "version": 26997,
+        "version": 32346,
         "library": {
             "type": "group",
             "id": 10058,
@@ -2582,14 +2694,25 @@
                     }
                 }
             },
+            "lastModifiedByUser": {
+                "id": 14678546,
+                "username": "katielygre",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/katielygre",
+                        "type": "text/html"
+                    }
+                }
+            },
             "creatorSummary": "Park et al.",
             "parsedDate": "2021",
             "numChildren": 2
         },
-        "bibtex": "\n@article{park_evaluation_2021,\n\ttitle = {{EVALUATION} {OF} {CRITICAL} {EXPERIMENTS} {IN} {THE} {UNIVERSITY} {OF} {WISCONSIN} {NUCLEAR} {REACTOR} ({UWNR}) {WITH} {UNCERTAINTY} {QUANTIFICATION}},\n\tvolume = {247},\n\tcopyright = {© The Authors, published by EDP Sciences, 2021},\n\tissn = {2100-014X},\n\turl = {https://www.epj-conferences.org/articles/epjconf/abs/2021/01/epjconf_physor2020_10032/epjconf_physor2020_10032.html},\n\tdoi = {10.1051/epjconf/202124710032},\n\tabstract = {An improved computational model of the University of Wisconsin Nuclear Reactor (UWNR) was developed to support the benchmark evaluation of recent data acquired during an experimental campaign conducted at UWNR. Previous efforts led to a scripted UWNR model for automated generation of MCNP6 and Serpent inputs. This capability was extended to SCALE/KENO. All three tools were used to evaluate a variety of zero-power, fresh-critical configurations, and the results agreed well. The MCNP6 model was extended to support shuffling the core configuration, which allows the modeling of burnup for evaluation of depleted critical configurations. The MCNP6 model successfully predicts core reactivity over time, after accounting for the initial reactivity bias. The inclusion of SCALE/KENO input generation enables sensitivity and uncertainty analyses using the TSUNAMI and Sampler modules of SCALE. A preliminary uncertainty analysis was performed with TSUNAMI for nuclear data uncertainties while direct perturbation calculations were performed using MCNP6 for geometry and material uncertainties, which helped to identify model parameters with the largest effect on the eigenvalue. A transient UWNR transport Model in Mammoth/Rattlesnake is under development to simulate the transient experiments. The existing MCNP6 and Serpent models are used to provide the CAD file for meshing and homogenized cross-sections. In conclusion, the evaluation of UWNR benchmark data provides increased confidence in various states of the UWNR computational model and will provide a unique model for use by other analysts.},\n\tlanguage = {en},\n\turldate = {2022-08-16},\n\tjournal = {EPJ Web of Conferences},\n\tauthor = {Park, Young-Hui and Cheng, Ye and Elzohery, Rabab and Wilson, Paul P. H. and Roberts, Jeremy A. and DeHart, Mark D.},\n\tyear = {2021},\n\tnote = {Publisher: EDP Sciences},\n\tpages = {10032},\n}\n",
+        "bibtex": "\n@article{park_evaluation_2021,\n\ttitle = {{EVALUATION} {OF} {CRITICAL} {EXPERIMENTS} {IN} {THE} {UNIVERSITY} {OF} {WISCONSIN} {NUCLEAR} {REACTOR} ({UWNR}) {WITH} {UNCERTAINTY} {QUANTIFICATION}},\n\tvolume = {247},\n\tcopyright = {© The Authors, published by EDP Sciences, 2021},\n\tissn = {2100-014X},\n\turl = {https://www.epj-conferences.org/articles/epjconf/abs/2021/01/epjconf_physor2020_10032/epjconf_physor2020_10032.html},\n\tdoi = {10.1051/epjconf/202124710032},\n\tabstract = {An improved computational model of the University of Wisconsin Nuclear Reactor (UWNR) was developed to support the benchmark evaluation of recent data acquired during an experimental campaign conducted at UWNR. Previous efforts led to a scripted UWNR model for automated generation of MCNP6 and Serpent inputs. This capability was extended to SCALE/KENO. All three tools were used to evaluate a variety of zero-power, fresh-critical configurations, and the results agreed well. The MCNP6 model was extended to support shuffling the core configuration, which allows the modeling of burnup for evaluation of depleted critical configurations. The MCNP6 model successfully predicts core reactivity over time, after accounting for the initial reactivity bias. The inclusion of SCALE/KENO input generation enables sensitivity and uncertainty analyses using the TSUNAMI and Sampler modules of SCALE. A preliminary uncertainty analysis was performed with TSUNAMI for nuclear data uncertainties while direct perturbation calculations were performed using MCNP6 for geometry and material uncertainties, which helped to identify model parameters with the largest effect on the eigenvalue. A transient UWNR transport Model in Mammoth/Rattlesnake is under development to simulate the transient experiments. The existing MCNP6 and Serpent models are used to provide the CAD file for meshing and homogenized cross-sections. In conclusion, the evaluation of UWNR benchmark data provides increased confidence in various states of the UWNR computational model and will provide a unique model for use by other analysts.},\n\tlanguage = {en},\n\turldate = {2022-08-16},\n\tjournal = {EPJ Web of Conferences},\n\tpublisher = {EDP Sciences},\n\tauthor = {Park, Young-Hui and Cheng, Ye and Elzohery, Rabab and Wilson, Paul P. H. and Roberts, Jeremy A. and DeHart, Mark D.},\n\tyear = {2021},\n\tpages = {10032},\n}\n",
         "data": {
             "key": "SXSAFPD5",
-            "version": 26997,
+            "version": 32346,
             "itemType": "journalArticle",
             "title": "EVALUATION OF CRITICAL EXPERIMENTS IN THE UNIVERSITY OF WISCONSIN NUCLEAR REACTOR (UWNR) WITH UNCERTAINTY QUANTIFICATION",
             "creators": [
@@ -2626,7 +2749,7 @@
             ],
             "abstractNote": "An improved computational model of the University of Wisconsin Nuclear Reactor (UWNR) was developed to support the benchmark evaluation of recent data acquired during an experimental campaign conducted at UWNR. Previous efforts led to a scripted UWNR model for automated generation of MCNP6 and Serpent inputs. This capability was extended to SCALE/KENO. All three tools were used to evaluate a variety of zero-power, fresh-critical configurations, and the results agreed well. The MCNP6 model was extended to support shuffling the core configuration, which allows the modeling of burnup for evaluation of depleted critical configurations. The MCNP6 model successfully predicts core reactivity over time, after accounting for the initial reactivity bias. The inclusion of SCALE/KENO input generation enables sensitivity and uncertainty analyses using the TSUNAMI and Sampler modules of SCALE. A preliminary uncertainty analysis was performed with TSUNAMI for nuclear data uncertainties while direct perturbation calculations were performed using MCNP6 for geometry and material uncertainties, which helped to identify model parameters with the largest effect on the eigenvalue. A transient UWNR transport Model in Mammoth/Rattlesnake is under development to simulate the transient experiments. The existing MCNP6 and Serpent models are used to provide the CAD file for meshing and homogenized cross-sections. In conclusion, the evaluation of UWNR benchmark data provides increased confidence in various states of the UWNR computational model and will provide a unique model for use by other analysts.",
             "publicationTitle": "EPJ Web of Conferences",
-            "publisher": "",
+            "publisher": "EDP Sciences",
             "place": "",
             "date": "2021",
             "volume": "247",
@@ -2653,7 +2776,7 @@
             "libraryCatalog": "www.epj-conferences.org",
             "callNumber": "",
             "rights": "© The Authors, published by EDP Sciences, 2021",
-            "extra": "Publisher: EDP Sciences",
+            "extra": "",
             "tags": [],
             "collections": [
                 "UKXV4KID"
@@ -2744,9 +2867,13 @@
             "publisher": "",
             "place": "",
             "date": "July 2020",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -2871,9 +2998,13 @@
             "publisher": "",
             "place": "Cambridge, United Kingdom",
             "date": "March 29 - April 2, 2020 (Cancelled)",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "10",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "978-1-5272-6447-2",
             "citationKey": "",
@@ -3237,9 +3368,13 @@
             "publisher": "American Nuclear Society",
             "place": "Washington, D.C.",
             "date": "October 19, 2019",
+            "eventPlace": "",
             "volume": "121",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "755-758",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -9939,9 +10074,13 @@
             "publisher": "",
             "place": "Palm Desert, CA, USA",
             "date": "July 17, 2019",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -10990,9 +11129,13 @@
             "publisher": "",
             "place": "Wilmington, NC",
             "date": "September 23-27, 2018",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -11376,9 +11519,13 @@
             "publisher": "",
             "place": "Cancun, Mexico",
             "date": "April 2018",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -12039,9 +12186,13 @@
             "publisher": "American Nuclear Society",
             "place": "Jeju, South Korea",
             "date": "April 16-20, 2017",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -12635,9 +12786,13 @@
             "publisher": "",
             "place": "Atlanta",
             "date": "2017",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -12746,9 +12901,13 @@
             "publisher": "",
             "place": "Palm Desert, CA, USA",
             "date": "2017",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -13385,9 +13544,13 @@
             "publisher": "",
             "place": "Atlanta, GA, United States",
             "date": "2016",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -14264,9 +14427,13 @@
             "publisher": "",
             "place": "Nashville, Tennessee",
             "date": "April 19–23, 2015",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "978-0-89448-720-0",
             "citationKey": "",
@@ -14865,9 +15032,13 @@
             "publisher": "",
             "place": "",
             "date": "2015",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -15525,9 +15696,13 @@
             "publisher": "",
             "place": "Kyoto, Japan",
             "date": "September 2014",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -15846,9 +16021,13 @@
             "publisher": "",
             "place": "",
             "date": "November 2013",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -15958,9 +16137,13 @@
             "publisher": "",
             "place": "",
             "date": "November 2013",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -16065,9 +16248,13 @@
             "publisher": "",
             "place": "",
             "date": "Nov 2013",
+            "eventPlace": "",
             "volume": "109",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "687-690",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -16286,9 +16473,13 @@
             "publisher": "",
             "place": "Salt Lake City, UT, United States",
             "date": "September 2013",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -16775,9 +16966,13 @@
             "publisher": "American Nuclear Society",
             "place": "Sun Valley, ID",
             "date": "May 5-9, 2013",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -16902,9 +17097,13 @@
             "publisher": "American Nuclear Society",
             "place": "Sun Valley, ID",
             "date": "May 5-9, 2013",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -17004,9 +17203,13 @@
             "publisher": "Waste Management Symposium",
             "place": "Phoenix, AZ",
             "date": "February 24--28, 2013",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -17507,9 +17710,13 @@
             "publisher": "",
             "place": "Washington, D.C.",
             "date": "November 12, 2012",
+            "eventPlace": "",
             "volume": "109",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "1180-1183",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -17603,9 +17810,13 @@
             "publisher": "the American Nuclear Society",
             "place": "San Diego, CA",
             "date": "November 11--15, 2012",
+            "eventPlace": "",
             "volume": "107",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "208--211",
             "series": "Environmental Sciences -- General",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -17813,9 +18024,13 @@
             "publisher": "",
             "place": "",
             "date": "Nov 2012",
+            "eventPlace": "",
             "volume": "107",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "490-493",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -17909,9 +18124,13 @@
             "publisher": "American Nuclear Society, La Grange Park, IL 60526, United States",
             "place": "Chicago, IL, United States",
             "date": "June 24--28, 2012",
+            "eventPlace": "",
             "volume": "106",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "260--263",
             "series": "Modeling and Simulation in the Fuel Cycle",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
@@ -18182,9 +18401,13 @@
             "publisher": "",
             "place": "Knoxville, TN, United States",
             "date": "Apr 15-20, 2012",
+            "eventPlace": "",
             "volume": "",
+            "issue": "",
+            "numberOfVolumes": "",
             "pages": "",
             "series": "",
+            "seriesNumber": "",
             "DOI": "",
             "ISBN": "",
             "citationKey": "",
