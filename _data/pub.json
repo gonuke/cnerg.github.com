@@ -1,5 +1,134 @@
 [
     {
+        "key": "MFBQQT9R",
+        "version": 32386,
+        "library": {
+            "type": "group",
+            "id": 10058,
+            "name": "CNERG",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/groups/10058",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/groups/10058/items/MFBQQT9R",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/groups/10058/items/MFBQQT9R",
+                "type": "text/html"
+            },
+            "attachment": {
+                "href": "https://api.zotero.org/groups/10058/items/IWTXHYDA",
+                "type": "application/json",
+                "attachmentType": "application/pdf",
+                "attachmentSize": 7015642
+            }
+        },
+        "meta": {
+            "createdByUser": {
+                "id": 112658,
+                "username": "gonuke",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/gonuke",
+                        "type": "text/html"
+                    }
+                }
+            },
+            "creatorSummary": "Nyberg et al.",
+            "parsedDate": "2026-02-01",
+            "numChildren": 2
+        },
+        "bibtex": "\n@article{nyberg_neutronics_2026,\n\ttitle = {Neutronics behavior of molten salt dissolved fuel subcritical minor actinide transmutation systems},\n\tvolume = {192},\n\tissn = {0149-1970},\n\turl = {https://www.sciencedirect.com/science/article/pii/S014919702500544X},\n\tdoi = {10.1016/j.pnucene.2025.106146},\n\tabstract = {Minor actinides (MA) complicate repository design and are difficult to transmute in traditional reactors, but may be burned efficiently and safely using subcritically driven systems. A novel molten chloride MA-fueled subcritical MA burner driven by a fusion neutron source is presented; initial analysis demonstrates neutronic viability and potential positive impacts of long-term burnup. Subcritical system power is limited by the source strength, operating fission neutron multiplication (keff), and the efficient utilization of source neutrons. A novel definition for source utilization η is introduced as an effective predictor of power over a wide range of keff which enables a significant reduction in sensitivity to uncertainty in initial eigenvalue calculations and 2-3 orders of magnitude faster statistical convergence in fixed source calculations at keff=0.98. This facilitates efficient analysis and optimization of subcritical power in Monte Carlo based neutronics codes. Initial characteristics of the annular subcritical system are explored in OpenMC, and parametric studies evaluating η are performed leading to general geometric and material power scalings for subcritical systems. Through maximizing η, models achieve subcritical powers above 500 MWth and tritium production far above replacement with a compact mirror fusion device on the order of one megawatt with a source strength of 5×1017ns and a significantly subcritical blanket (keff=0.98). While these models and results do not account for all potential neutron losses, they demonstrate the potential of such systems to meaningfully burn MAs and provide value beyond power generation.},\n\turldate = {2026-01-30},\n\tjournal = {Progress in Nuclear Energy},\n\tauthor = {Nyberg, Matthew J. and Wilson, Paul P. H. and Lindley, Ben A.},\n\tmonth = feb,\n\tyear = {2026},\n\tkeywords = {Externally driven system neutronics, Fission-fusion hybrid, OpenMC, Subcritical, Transmutation},\n\tpages = {106146},\n}\n",
+        "data": {
+            "key": "MFBQQT9R",
+            "version": 32386,
+            "itemType": "journalArticle",
+            "title": "Neutronics behavior of molten salt dissolved fuel subcritical minor actinide transmutation systems",
+            "creators": [
+                {
+                    "creatorType": "author",
+                    "firstName": "Matthew J.",
+                    "lastName": "Nyberg"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Paul P. H.",
+                    "lastName": "Wilson"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Ben A.",
+                    "lastName": "Lindley"
+                }
+            ],
+            "abstractNote": "Minor actinides (MA) complicate repository design and are difficult to transmute in traditional reactors, but may be burned efficiently and safely using subcritically driven systems. A novel molten chloride MA-fueled subcritical MA burner driven by a fusion neutron source is presented; initial analysis demonstrates neutronic viability and potential positive impacts of long-term burnup. Subcritical system power is limited by the source strength, operating fission neutron multiplication (keff), and the efficient utilization of source neutrons. A novel definition for source utilization η is introduced as an effective predictor of power over a wide range of keff which enables a significant reduction in sensitivity to uncertainty in initial eigenvalue calculations and 2-3 orders of magnitude faster statistical convergence in fixed source calculations at keff=0.98. This facilitates efficient analysis and optimization of subcritical power in Monte Carlo based neutronics codes. Initial characteristics of the annular subcritical system are explored in OpenMC, and parametric studies evaluating η are performed leading to general geometric and material power scalings for subcritical systems. Through maximizing η, models achieve subcritical powers above 500 MWth and tritium production far above replacement with a compact mirror fusion device on the order of one megawatt with a source strength of 5×1017ns and a significantly subcritical blanket (keff=0.98). While these models and results do not account for all potential neutron losses, they demonstrate the potential of such systems to meaningfully burn MAs and provide value beyond power generation.",
+            "publicationTitle": "Progress in Nuclear Energy",
+            "publisher": "",
+            "place": "",
+            "date": "2026-02-01",
+            "volume": "192",
+            "issue": "",
+            "section": "",
+            "partNumber": "",
+            "partTitle": "",
+            "pages": "106146",
+            "series": "",
+            "seriesTitle": "",
+            "seriesText": "",
+            "journalAbbreviation": "Progress in Nuclear Energy",
+            "DOI": "10.1016/j.pnucene.2025.106146",
+            "citationKey": "",
+            "url": "https://www.sciencedirect.com/science/article/pii/S014919702500544X",
+            "accessDate": "2026-01-30T23:29:45Z",
+            "PMID": "",
+            "PMCID": "",
+            "ISSN": "0149-1970",
+            "archive": "",
+            "archiveLocation": "",
+            "shortTitle": "",
+            "language": "",
+            "libraryCatalog": "ScienceDirect",
+            "callNumber": "",
+            "rights": "",
+            "extra": "",
+            "tags": [
+                {
+                    "tag": "Externally driven system neutronics",
+                    "type": 1
+                },
+                {
+                    "tag": "Fission-fusion hybrid",
+                    "type": 1
+                },
+                {
+                    "tag": "OpenMC",
+                    "type": 1
+                },
+                {
+                    "tag": "Subcritical",
+                    "type": 1
+                },
+                {
+                    "tag": "Transmutation",
+                    "type": 1
+                }
+            ],
+            "collections": [
+                "UKXV4KID"
+            ],
+            "relations": {},
+            "dateAdded": "2026-01-30T23:29:45Z",
+            "dateModified": "2026-01-30T23:29:45Z"
+        }
+    },
+    {
         "key": "6ZXRX62P",
         "version": 32189,
         "library": {
@@ -607,6 +736,129 @@
             "relations": {},
             "dateAdded": "2025-03-24T17:54:30Z",
             "dateModified": "2025-03-24T17:54:30Z"
+        }
+    },
+    {
+        "key": "K5HPHKWV",
+        "version": 32408,
+        "library": {
+            "type": "group",
+            "id": 10058,
+            "name": "CNERG",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/groups/10058",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/groups/10058/items/K5HPHKWV",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/groups/10058/items/K5HPHKWV",
+                "type": "text/html"
+            },
+            "attachment": {
+                "href": "https://api.zotero.org/groups/10058/items/ZS79DV58",
+                "type": "application/json",
+                "attachmentType": "application/pdf",
+                "attachmentSize": 376073
+            }
+        },
+        "meta": {
+            "createdByUser": {
+                "id": 112658,
+                "username": "gonuke",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/gonuke",
+                        "type": "text/html"
+                    }
+                }
+            },
+            "creatorSummary": "Sawatzky et al.",
+            "parsedDate": "2025",
+            "numChildren": 1
+        },
+        "bibtex": "\n@article{sawatzky_adaptive_2025,\n\ttitle = {Adaptive {Mesh} {Refinement} {Applied} to {Unstructured} {Mesh} {Tallies} in {Cardinal}-{OpenMC}},\n\tvolume = {132},\n\turl = {https://epubs.ans.org/download/?a=58567},\n\tnumber = {1},\n\tjournal = {Transactions of the American Nuclear Society},\n\tauthor = {Sawatzky, Kevin C and Ahammed, Ebny W. and Wilson, Paul P. and Shriwise, Patrick C. and Romano, Paul and Novak, April},\n\tmonth = jun,\n\tyear = {2025},\n\tpages = {492--495},\n}\n",
+        "data": {
+            "key": "K5HPHKWV",
+            "version": 32408,
+            "itemType": "journalArticle",
+            "title": "Adaptive Mesh Refinement Applied to Unstructured Mesh Tallies in Cardinal-OpenMC",
+            "creators": [
+                {
+                    "creatorType": "author",
+                    "firstName": "Kevin C",
+                    "lastName": "Sawatzky"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Ebny W.",
+                    "lastName": "Ahammed"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Paul P.",
+                    "lastName": "Wilson"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Patrick C.",
+                    "lastName": "Shriwise"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Paul",
+                    "lastName": "Romano"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "April",
+                    "lastName": "Novak"
+                }
+            ],
+            "abstractNote": "",
+            "publicationTitle": "Transactions of the American Nuclear Society",
+            "publisher": "",
+            "place": "",
+            "date": "06/2025",
+            "volume": "132",
+            "issue": "1",
+            "section": "",
+            "partNumber": "",
+            "partTitle": "",
+            "pages": "492-495",
+            "series": "",
+            "seriesTitle": "",
+            "seriesText": "",
+            "journalAbbreviation": "",
+            "DOI": "",
+            "citationKey": "",
+            "url": "https://epubs.ans.org/download/?a=58567",
+            "accessDate": "",
+            "PMID": "",
+            "PMCID": "",
+            "ISSN": "",
+            "archive": "",
+            "archiveLocation": "",
+            "shortTitle": "",
+            "language": "",
+            "libraryCatalog": "",
+            "callNumber": "",
+            "rights": "",
+            "extra": "",
+            "tags": [],
+            "collections": [
+                "UKXV4KID"
+            ],
+            "relations": {},
+            "dateAdded": "2026-01-30T23:33:02Z",
+            "dateModified": "2026-01-30T23:34:52Z"
         }
     },
     {
@@ -19252,283 +19504,6 @@
             "relations": {},
             "dateAdded": "2012-06-14T19:40:55Z",
             "dateModified": "2012-06-14T19:58:20Z"
-        }
-    },
-    {
-        "key": "A2DE4N4W",
-        "version": 20082,
-        "library": {
-            "type": "group",
-            "id": 10058,
-            "name": "CNERG",
-            "links": {
-                "alternate": {
-                    "href": "https://www.zotero.org/groups/10058",
-                    "type": "text/html"
-                }
-            }
-        },
-        "links": {
-            "self": {
-                "href": "https://api.zotero.org/groups/10058/items/A2DE4N4W",
-                "type": "application/json"
-            },
-            "alternate": {
-                "href": "https://www.zotero.org/groups/10058/items/A2DE4N4W",
-                "type": "text/html"
-            },
-            "attachment": {
-                "href": "https://api.zotero.org/groups/10058/items/S5TDVFV3",
-                "type": "application/json",
-                "attachmentType": "application/pdf",
-                "attachmentSize": 511968
-            }
-        },
-        "meta": {
-            "createdByUser": {
-                "id": 1044870,
-                "username": "KLEPAIN",
-                "name": "",
-                "links": {
-                    "alternate": {
-                        "href": "https://www.zotero.org/klepain",
-                        "type": "text/html"
-                    }
-                }
-            },
-            "creatorSummary": "Bohm et al.",
-            "parsedDate": "2011-07",
-            "numChildren": 1
-        },
-        "bibtex": "\n@article{bohm_benchmarking_2011,\n\ttitle = {Benchmarking a {CAD}-{Based} {Monte} {Carlo} {Code} {Using} {Fusion}-{Specific} {Experiments}},\n\tvolume = {175},\n\tabstract = {Researchers at the University of Wisconsin-Madison Fusion Technology Institute and Argonne National Laboratories have recently developed a computer-aided-design-based Monte Carlo code (DAG-MCNP5) to perform nuclear analysis of complex three-dimensional systems such as ITER. In this work, DAG-MCNP5-calculated results will be compared to native MCNP5-calculated results and to measured results for ITER-specific benchmark experiments in order to provide additional quality assurance for DAG-MCNP.\n\nCalculated results are compared for the bulk shield mock-up and the helium-cooled pebble bed (HCPB) breeder blanket mock-up, which utilize the 14-MeV Frascati Neutron Generator facility. Neutron flux was measured at different depths in these experimental mock-ups using activation foils that cover the neutron energy range of 0 to 14 MeV. Additionally, tritium production in Li2CO3 pellets was measured in the HCPB experiment.\n\nResults of the foil activation calculations for the bulk shielding experiment and the HCPB breeder experiment show agreement within statistical uncertainty for DAG-MCNP5 and native MCNP5. Calculated results for tritium production in the HCPB mock-up also agree within statistical uncertainty for the DAG-MCNP5 and native MCNP5 calculations. Timing results showed that DAG-MCNP5 is 5.3 times slower than native MCNP5 for the bulk shield mock-up. For the HCPB mock-up, DAG-MCNP5 is 4.8 times slower than native MCNP5.\n\nIt is concluded that the close agreement of calculated foil activation and tritium production between DAG-MCNP5 and native MCNP5 in these complex and ITER-relevant geometries provides additional quality assurance for the DAG-MCNP5 code and the mcnp2cad tool used in this work.},\n\tnumber = {1},\n\tjournal = {Nuclear Technology},\n\tauthor = {Bohm, T.D. and Jackson, S.T. and Sawan, M.E. and Wilson, P.P.H.},\n\tmonth = jul,\n\tyear = {2011},\n\tkeywords = {Analysis, Benchmark, CAD, Code, DAG-MCNP5, Fusion, Helium, Helium-cooled Pebble Bed (HCPB), International Thermonuclear Reactor (ITER), Monte Carlo Methods},\n\tpages = {264--270},\n}\n",
-        "data": {
-            "key": "A2DE4N4W",
-            "version": 20082,
-            "itemType": "journalArticle",
-            "title": "Benchmarking a CAD-Based Monte Carlo Code Using Fusion-Specific Experiments",
-            "creators": [
-                {
-                    "creatorType": "author",
-                    "firstName": "T.D.",
-                    "lastName": "Bohm"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "S.T.",
-                    "lastName": "Jackson"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "M.E.",
-                    "lastName": "Sawan"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "P.P.H.",
-                    "lastName": "Wilson"
-                }
-            ],
-            "abstractNote": "Researchers at the University of Wisconsin-Madison Fusion Technology Institute and Argonne National Laboratories have recently developed a computer-aided-design-based Monte Carlo code (DAG-MCNP5) to perform nuclear analysis of complex three-dimensional systems such as ITER. In this work, DAG-MCNP5-calculated results will be compared to native MCNP5-calculated results and to measured results for ITER-specific benchmark experiments in order to provide additional quality assurance for DAG-MCNP.\n\nCalculated results are compared for the bulk shield mock-up and the helium-cooled pebble bed (HCPB) breeder blanket mock-up, which utilize the 14-MeV Frascati Neutron Generator facility. Neutron flux was measured at different depths in these experimental mock-ups using activation foils that cover the neutron energy range of 0 to 14 MeV. Additionally, tritium production in Li2CO3 pellets was measured in the HCPB experiment.\n\nResults of the foil activation calculations for the bulk shielding experiment and the HCPB breeder experiment show agreement within statistical uncertainty for DAG-MCNP5 and native MCNP5. Calculated results for tritium production in the HCPB mock-up also agree within statistical uncertainty for the DAG-MCNP5 and native MCNP5 calculations. Timing results showed that DAG-MCNP5 is 5.3 times slower than native MCNP5 for the bulk shield mock-up. For the HCPB mock-up, DAG-MCNP5 is 4.8 times slower than native MCNP5.\n\nIt is concluded that the close agreement of calculated foil activation and tritium production between DAG-MCNP5 and native MCNP5 in these complex and ITER-relevant geometries provides additional quality assurance for the DAG-MCNP5 code and the mcnp2cad tool used in this work.",
-            "publicationTitle": "Nuclear Technology",
-            "publisher": "",
-            "place": "",
-            "date": "July 2011",
-            "volume": "175",
-            "issue": "1",
-            "section": "",
-            "partNumber": "",
-            "partTitle": "",
-            "pages": "264-270",
-            "series": "",
-            "seriesTitle": "",
-            "seriesText": "",
-            "journalAbbreviation": "",
-            "DOI": "",
-            "citationKey": "",
-            "url": "",
-            "accessDate": "",
-            "PMID": "",
-            "PMCID": "",
-            "ISSN": "",
-            "archive": "",
-            "archiveLocation": "",
-            "shortTitle": "",
-            "language": "",
-            "libraryCatalog": "",
-            "callNumber": "",
-            "rights": "",
-            "extra": "",
-            "tags": [
-                {
-                    "tag": "Analysis"
-                },
-                {
-                    "tag": "Benchmark"
-                },
-                {
-                    "tag": "CAD"
-                },
-                {
-                    "tag": "Code"
-                },
-                {
-                    "tag": "DAG-MCNP5"
-                },
-                {
-                    "tag": "Fusion"
-                },
-                {
-                    "tag": "Helium"
-                },
-                {
-                    "tag": "Helium-cooled Pebble Bed (HCPB)"
-                },
-                {
-                    "tag": "International Thermonuclear Reactor (ITER)"
-                },
-                {
-                    "tag": "Monte Carlo Methods"
-                }
-            ],
-            "collections": [
-                "UKXV4KID"
-            ],
-            "relations": {},
-            "dateAdded": "2012-06-14T20:30:36Z",
-            "dateModified": "2012-06-14T20:32:50Z"
-        }
-    },
-    {
-        "key": "DH33HKDP",
-        "version": 20082,
-        "library": {
-            "type": "group",
-            "id": 10058,
-            "name": "CNERG",
-            "links": {
-                "alternate": {
-                    "href": "https://www.zotero.org/groups/10058",
-                    "type": "text/html"
-                }
-            }
-        },
-        "links": {
-            "self": {
-                "href": "https://api.zotero.org/groups/10058/items/DH33HKDP",
-                "type": "application/json"
-            },
-            "alternate": {
-                "href": "https://www.zotero.org/groups/10058/items/DH33HKDP",
-                "type": "text/html"
-            },
-            "attachment": {
-                "href": "https://api.zotero.org/groups/10058/items/9CX89A9G",
-                "type": "application/json",
-                "attachmentType": "application/pdf",
-                "attachmentSize": 477228
-            }
-        },
-        "meta": {
-            "createdByUser": {
-                "id": 1044870,
-                "username": "KLEPAIN",
-                "name": "",
-                "links": {
-                    "alternate": {
-                        "href": "https://www.zotero.org/klepain",
-                        "type": "text/html"
-                    }
-                }
-            },
-            "creatorSummary": "Ibrahim et al.",
-            "parsedDate": "2011-07",
-            "numChildren": 1
-        },
-        "bibtex": "\n@article{ibrahim_iter_2011,\n\ttitle = {{ITER} {Neutronics} {Modeling} {Using} {Hybrid} {Monte} {Carlo}/{Deterministic} and {CAD}-{Based} {Monte} {Carlo} {Methods}},\n\tvolume = {175},\n\tjournal = {Nuclear Technology},\n\tauthor = {Ibrahim, Ahmad M. and Mosher, Scott W. and Evans, Thomas M. and Peplow, Douglas E. and Sawan, Mohamed E. and Wilson, Paul P.H. and Wagner, John C. and Heltemes, Thad},\n\tmonth = jul,\n\tyear = {2011},\n\tpages = {251--258},\n}\n",
-        "data": {
-            "key": "DH33HKDP",
-            "version": 20082,
-            "itemType": "journalArticle",
-            "title": "ITER Neutronics Modeling Using Hybrid Monte Carlo/Deterministic and CAD-Based Monte Carlo Methods",
-            "creators": [
-                {
-                    "creatorType": "author",
-                    "firstName": "Ahmad M.",
-                    "lastName": "Ibrahim"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "Scott W.",
-                    "lastName": "Mosher"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "Thomas M.",
-                    "lastName": "Evans"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "Douglas E.",
-                    "lastName": "Peplow"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "Mohamed E.",
-                    "lastName": "Sawan"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "Paul P.H.",
-                    "lastName": "Wilson"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "John C.",
-                    "lastName": "Wagner"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "Thad",
-                    "lastName": "Heltemes"
-                }
-            ],
-            "abstractNote": "",
-            "publicationTitle": "Nuclear Technology",
-            "publisher": "",
-            "place": "",
-            "date": "Jul 2011",
-            "volume": "175",
-            "issue": "",
-            "section": "",
-            "partNumber": "",
-            "partTitle": "",
-            "pages": "251-258",
-            "series": "",
-            "seriesTitle": "",
-            "seriesText": "",
-            "journalAbbreviation": "",
-            "DOI": "",
-            "citationKey": "",
-            "url": "",
-            "accessDate": "",
-            "PMID": "",
-            "PMCID": "",
-            "ISSN": "",
-            "archive": "",
-            "archiveLocation": "",
-            "shortTitle": "",
-            "language": "",
-            "libraryCatalog": "",
-            "callNumber": "",
-            "rights": "",
-            "extra": "",
-            "tags": [],
-            "collections": [
-                "UKXV4KID"
-            ],
-            "relations": {},
-            "dateAdded": "2012-08-01T17:53:54Z",
-            "dateModified": "2012-08-01T17:56:10Z"
         }
     }
 ]
