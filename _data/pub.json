@@ -268,6 +268,113 @@
         }
     },
     {
+        "key": "TU6ME2N2",
+        "version": 36038,
+        "library": {
+            "type": "group",
+            "id": 10058,
+            "name": "CNERG",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/groups/10058",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/groups/10058/items/TU6ME2N2",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/groups/10058/items/TU6ME2N2",
+                "type": "text/html"
+            }
+        },
+        "meta": {
+            "createdByUser": {
+                "id": 112658,
+                "username": "gonuke",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/gonuke",
+                        "type": "text/html"
+                    }
+                }
+            },
+            "creatorSummary": "Gross et al.",
+            "parsedDate": "2026-10-22",
+            "numChildren": 0
+        },
+        "bibtex": "\n@article{gross_comparing_2026,\n\ttitle = {Comparing {Fuel} {Homogenization} {Strategies} for an {OpenMC} {Depletion} {Analysis} of a {TRISO}-{Fueled}, {Helium}-{Cooled} {Microreactor}},\n\tissn = {0029-5450, 1943-7471},\n\turl = {https://www.tandfonline.com/doi/full/10.1080/00295450.2026.2745386},\n\tdoi = {10.1080/00295450.2026.2745386},\n\tlanguage = {en},\n\turldate = {2026-10-23},\n\tjournal = {Nuclear Technology},\n\tauthor = {Gross, Lewis I. and Shriwise, Patrick and Lindley, Benjamin A. and Wilson, Paul P. H.},\n\tmonth = oct,\n\tyear = {2026},\n\tpages = {1--17},\n}\n",
+        "data": {
+            "key": "TU6ME2N2",
+            "version": 36038,
+            "itemType": "journalArticle",
+            "title": "Comparing Fuel Homogenization Strategies for an OpenMC Depletion Analysis of a TRISO-Fueled, Helium-Cooled Microreactor",
+            "creators": [
+                {
+                    "creatorType": "author",
+                    "firstName": "Lewis I.",
+                    "lastName": "Gross"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Patrick",
+                    "lastName": "Shriwise"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Benjamin A.",
+                    "lastName": "Lindley"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Paul P. H.",
+                    "lastName": "Wilson"
+                }
+            ],
+            "abstractNote": "",
+            "publicationTitle": "Nuclear Technology",
+            "publisher": "",
+            "place": "",
+            "date": "2026-10-22",
+            "volume": "",
+            "issue": "",
+            "section": "",
+            "partNumber": "",
+            "partTitle": "",
+            "pages": "1-17",
+            "series": "",
+            "seriesTitle": "",
+            "seriesText": "",
+            "journalAbbreviation": "Nuclear Technology",
+            "DOI": "10.1080/00295450.2026.2745386",
+            "citationKey": "",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/00295450.2026.2745386",
+            "accessDate": "2026-10-23T00:28:42Z",
+            "PMID": "",
+            "PMCID": "",
+            "ISSN": "0029-5450, 1943-7471",
+            "archive": "",
+            "archiveLocation": "",
+            "shortTitle": "",
+            "language": "en",
+            "libraryCatalog": "DOI.org (Crossref)",
+            "callNumber": "",
+            "rights": "",
+            "extra": "",
+            "tags": [],
+            "collections": [
+                "UKXV4KID"
+            ],
+            "relations": {},
+            "dateAdded": "2026-10-23T00:28:42Z",
+            "dateModified": "2026-10-23T00:28:42Z"
+        }
+    },
+    {
         "key": "3G6ZWT7W",
         "version": 32755,
         "library": {
@@ -19632,122 +19739,6 @@
             "relations": {},
             "dateAdded": "2017-12-07T02:01:05Z",
             "dateModified": "2017-12-07T02:02:08Z"
-        }
-    },
-    {
-        "key": "9NQ682RF",
-        "version": 32422,
-        "library": {
-            "type": "group",
-            "id": 10058,
-            "name": "CNERG",
-            "links": {
-                "alternate": {
-                    "href": "https://www.zotero.org/groups/10058",
-                    "type": "text/html"
-                }
-            }
-        },
-        "links": {
-            "self": {
-                "href": "https://api.zotero.org/groups/10058/items/9NQ682RF",
-                "type": "application/json"
-            },
-            "alternate": {
-                "href": "https://www.zotero.org/groups/10058/items/9NQ682RF",
-                "type": "text/html"
-            },
-            "attachment": {
-                "href": "https://api.zotero.org/groups/10058/items/Z9PKIPIV",
-                "type": "application/json",
-                "attachmentType": "application/pdf",
-                "attachmentSize": 233635
-            }
-        },
-        "meta": {
-            "createdByUser": {
-                "id": 162605,
-                "username": "kldunn",
-                "name": "",
-                "links": {
-                    "alternate": {
-                        "href": "https://www.zotero.org/kldunn",
-                        "type": "text/html"
-                    }
-                }
-            },
-            "lastModifiedByUser": {
-                "id": 112658,
-                "username": "gonuke",
-                "name": "",
-                "links": {
-                    "alternate": {
-                        "href": "https://www.zotero.org/gonuke",
-                        "type": "text/html"
-                    }
-                }
-            },
-            "creatorSummary": "Dunn and Wilson",
-            "parsedDate": "2012-11",
-            "numChildren": 1
-        },
-        "bibtex": "\n@inproceedings{dunn_kernel_2012,\n\ttitle = {Kernel {Density} {Estimators} for {Monte} {Carlo} {Tallies} on {Unstructured} {Meshes}},\n\tvolume = {107},\n\tbooktitle = {Transactions of the {American} {Nuclear} {Society}},\n\tauthor = {Dunn, K. L. and Wilson, P. P. H.},\n\tmonth = nov,\n\tyear = {2012},\n\tkeywords = {\\_\\_NEUP2026},\n\tpages = {490--493},\n}\n",
-        "data": {
-            "key": "9NQ682RF",
-            "version": 32422,
-            "itemType": "conferencePaper",
-            "title": "Kernel Density Estimators for Monte Carlo Tallies on Unstructured Meshes",
-            "creators": [
-                {
-                    "creatorType": "author",
-                    "firstName": "K. L.",
-                    "lastName": "Dunn"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "P. P. H.",
-                    "lastName": "Wilson"
-                }
-            ],
-            "abstractNote": "",
-            "proceedingsTitle": "Transactions of the American Nuclear Society",
-            "conferenceName": "",
-            "publisher": "",
-            "place": "",
-            "date": "Nov 2012",
-            "eventPlace": "",
-            "volume": "107",
-            "issue": "",
-            "numberOfVolumes": "",
-            "pages": "490-493",
-            "series": "",
-            "seriesNumber": "",
-            "DOI": "",
-            "ISBN": "",
-            "citationKey": "",
-            "url": "",
-            "accessDate": "",
-            "ISSN": "",
-            "archive": "",
-            "archiveLocation": "",
-            "shortTitle": "",
-            "language": "",
-            "libraryCatalog": "",
-            "callNumber": "",
-            "rights": "",
-            "extra": "",
-            "tags": [
-                {
-                    "tag": "__NEUP2026"
-                }
-            ],
-            "collections": [
-                "UKXV4KID",
-                "VBKGWTWB"
-            ],
-            "relations": {},
-            "dateAdded": "2013-01-25T17:35:04Z",
-            "dateModified": "2026-02-03T17:08:33Z"
         }
     }
 ]
