@@ -1,5 +1,96 @@
 [
     {
+        "key": "KL5QYFZT",
+        "version": 36194,
+        "library": {
+            "type": "group",
+            "id": 10058,
+            "name": "CNERG",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/groups/10058",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/groups/10058/items/KL5QYFZT",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/groups/10058/items/KL5QYFZT",
+                "type": "text/html"
+            },
+            "attachment": {
+                "href": "https://api.zotero.org/groups/10058/items/AYMPIIRE",
+                "type": "application/json",
+                "attachmentType": "application/pdf",
+                "attachmentSize": 26946781
+            }
+        },
+        "meta": {
+            "createdByUser": {
+                "id": 112658,
+                "username": "gonuke",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/gonuke",
+                        "type": "text/html"
+                    }
+                }
+            },
+            "creatorSummary": "Moreno",
+            "parsedDate": "2026",
+            "numChildren": 2
+        },
+        "bibtex": "\n@phdthesis{moreno_surrogate-assisted_2026,\n\taddress = {Madison, WI, USA},\n\ttype = {{PhD} {Nuclear} {Engineering} and {Engineering} {Physics}},\n\ttitle = {Surrogate-{Assisted}, {Gradient}-{Based} {Optimization} of {Stellarator} {Blanket} {Geometry}},\n\turl = {https://digital.library.wisc.edu/1711.dl/ONKJ7OEOASGE38U},\n\tabstract = {In the global effort to commercialize fusion power, the stellarator magnetic confinement scheme has attracted renewed interest as a design basis for plasma confinement. However, while the stellarator possesses unique advantages relative to other confinement schemes, its geometric complexity poses significant engineering, technological, and computational challenges. The methods commonly used to design fusion blankets are ill-suited to the stellarator blanket design problem, which features many degrees of freedom and a high-dimensional design space. For such a design problem, numerical optimization methods can efficiently and autonomously navigate the design space to find an optimal design. This work investigates the application of surrogate-assisted, gradient-based methods to stellarator blanket geometry design. In particular, the goal for this work is to explore the appropriateness of gradient-based methods for global optimization in this setting and to present a computational workflow that poses tractable computational cost.  \n\nIncluded in this document is a comprehensive review of relevant background material. Commonly considered blanket performance metrics are detailed, followed by an examination of recent stellarator blanket design case studies. In addition, gradient-based design optimization is discussed, accompanied by an overview of the surrogate modeling methods employed in the developed workflow and a survey of relevant nuclear engineering design optimization case studies.  \n\nThe parametric modeling software library developed for this workflow, ParaStell, is also detailed. In particular, the routines relevant to this work are discussed. This includes ParaStell’s blanket and magnet geometry modeling routines and various relevant utilities. Furthermore, the developed optimization workflow is overviewed. Various workflow routines are discussed, including design point modeling, surrogate development, and optimization itself.  \n\nTwo studies are covered in this work. The first considers a simplified design problem in which only the geometry of the breeder is optimized in order to minimize blanket cost while meeting a tritium breeding target. The second considers a more sophisticated problem in which the geometries of the breeder and shields are optimized in order to minimize blanket cost while meeting several neutronics performance targets. Across both studies, the developed optimization workflow is successfully demonstrated for the WISTELL-D stellarator configuration, exhibiting its efficacy for global optimization in large-scale design settings.},\n\tschool = {U. Wisconsin-Madison},\n\tauthor = {Moreno, Connor},\n\tmonth = aug,\n\tyear = {2026},\n}\n",
+        "data": {
+            "key": "KL5QYFZT",
+            "version": 36194,
+            "itemType": "thesis",
+            "title": "Surrogate-Assisted, Gradient-Based Optimization of Stellarator Blanket Geometry",
+            "creators": [
+                {
+                    "creatorType": "author",
+                    "firstName": "Connor",
+                    "lastName": "Moreno"
+                }
+            ],
+            "abstractNote": "In the global effort to commercialize fusion power, the stellarator magnetic confinement scheme has attracted renewed interest as a design basis for plasma confinement. However, while the stellarator possesses unique advantages relative to other confinement schemes, its geometric complexity poses significant engineering, technological, and computational challenges. The methods commonly used to design fusion blankets are ill-suited to the stellarator blanket design problem, which features many degrees of freedom and a high-dimensional design space. For such a design problem, numerical optimization methods can efficiently and autonomously navigate the design space to find an optimal design. This work investigates the application of surrogate-assisted, gradient-based methods to stellarator blanket geometry design. In particular, the goal for this work is to explore the appropriateness of gradient-based methods for global optimization in this setting and to present a computational workflow that poses tractable computational cost.  \n\nIncluded in this document is a comprehensive review of relevant background material. Commonly considered blanket performance metrics are detailed, followed by an examination of recent stellarator blanket design case studies. In addition, gradient-based design optimization is discussed, accompanied by an overview of the surrogate modeling methods employed in the developed workflow and a survey of relevant nuclear engineering design optimization case studies.  \n\nThe parametric modeling software library developed for this workflow, ParaStell, is also detailed. In particular, the routines relevant to this work are discussed. This includes ParaStell’s blanket and magnet geometry modeling routines and various relevant utilities. Furthermore, the developed optimization workflow is overviewed. Various workflow routines are discussed, including design point modeling, surrogate development, and optimization itself.  \n\nTwo studies are covered in this work. The first considers a simplified design problem in which only the geometry of the breeder is optimized in order to minimize blanket cost while meeting a tritium breeding target. The second considers a more sophisticated problem in which the geometries of the breeder and shields are optimized in order to minimize blanket cost while meeting several neutronics performance targets. Across both studies, the developed optimization workflow is successfully demonstrated for the WISTELL-D stellarator configuration, exhibiting its efficacy for global optimization in large-scale design settings.",
+            "thesisType": "PhD Nuclear Engineering and Engineering Physics",
+            "university": "U. Wisconsin-Madison",
+            "place": "Madison, WI, USA",
+            "date": "08/2026",
+            "series": "",
+            "seriesNumber": "",
+            "numPages": "",
+            "DOI": "",
+            "ISBN": "",
+            "citationKey": "",
+            "url": "https://digital.library.wisc.edu/1711.dl/ONKJ7OEOASGE38U",
+            "accessDate": "",
+            "ISSN": "",
+            "archive": "",
+            "archiveLocation": "",
+            "shortTitle": "",
+            "language": "",
+            "libraryCatalog": "",
+            "callNumber": "",
+            "rights": "",
+            "extra": "",
+            "tags": [],
+            "collections": [
+                "34I86HPD",
+                "6259B6TV"
+            ],
+            "relations": {},
+            "dateAdded": "2026-09-07T16:53:16Z",
+            "dateModified": "2026-11-06T22:17:42Z"
+        }
+    },
+    {
         "key": "5H9W7FRP",
         "version": 31820,
         "library": {
@@ -1128,7 +1219,7 @@
     },
     {
         "key": "KV8BMAXT",
-        "version": 30663,
+        "version": 36146,
         "library": {
             "type": "group",
             "id": 10058,
@@ -1183,10 +1274,10 @@
             "parsedDate": "2018-06-08",
             "numChildren": 2
         },
-        "bibtex": "\n@phdthesis{shriwise_geometry_2018,\n\taddress = {Madison, WI},\n\ttype = {{PhD} {Nuclear} {Engineering} and {Engineering} {Physics}},\n\ttitle = {Geometry {Query} {Optimizations} in {CAD}-{Based} {Tessellations} for {Monte} {Carlo} {Radiation} {Transport}},\n\turl = {https://digital.library.wisc.edu/1711.dl/ADF7ZBX54SP4A8L},\n\tabstract = {The performance of direct CAD-based Monte Carlo Radiation Transport (MCRT) relies heavily on its ability to return geometric queries robustly via ray tracing methods. Current applications of ray tracing for MCRT are robust given that certain requirements are met [48], but cause simulations to run much longer than native code geometry representations. This work explores alternate geometry query methods aimed at reducing the complexity of these operations as well as algorithmic optimization by adapting recent developments in CPU ray tracing for use in engineering analysis. A preconditioning scheme is presented aimed at avoiding unnecessary ray queries for volumes with high collision densities. A model is also developed to inform the application of the preconditioning data structure based on a post facto analysis. Next, a specialized ray tracing kernel for MCRT is presented. As new ray tracing kernels are developed for real-time, photo-realistic rendering, algorithmic approaches have appeared which are demonstrated to be advantageous when applied in radiation transport. In particular, the application of data parallelism in ray tracing for Monte Carlo is demonstrated - resulting in significant performance improvements. Finally, model features resulting in systematic performance degradation commonly found in CAD models for MCRT are studied. Methods are proposed and demonstrated to improve performance of ray tracing kernels in models with these features. The combination of this work is shown to provide improvement factors ranging from 1.1 to 9.54 in simulation run time without loss of robustness for several production analysis models. The final impact of this work is the alleviation of concern for additional computational time in using CAD geometries for MCRT while maintaining the benefit of reduced human time and effort in model preparation and design.},\n\tlanguage = {English},\n\tschool = {University of Wisconsin-Madison},\n\tauthor = {Shriwise, Patrick},\n\tmonth = jun,\n\tyear = {2018},\n\tkeywords = {CAD, dagmc, mesh, monte carlo, performance, ray tracing},\n}\n",
+        "bibtex": "\n@phdthesis{shriwise_geometry_2018,\n\taddress = {Madison, WI},\n\ttype = {{PhD} {Nuclear} {Engineering} and {Engineering} {Physics}},\n\ttitle = {Geometry {Query} {Optimizations} in {CAD}-{Based} {Tessellations} for {Monte} {Carlo} {Radiation} {Transport}},\n\turl = {https://digital.library.wisc.edu/1711.dl/ADF7ZBX54SP4A8L},\n\tabstract = {The performance of direct CAD-based Monte Carlo Radiation Transport (MCRT) relies heavily on its ability to return geometric queries robustly via ray tracing methods. Current applications of ray tracing for MCRT are robust given that certain requirements are met [48], but cause simulations to run much longer than native code geometry representations. This work explores alternate geometry query methods aimed at reducing the complexity of these operations as well as algorithmic optimization by adapting recent developments in CPU ray tracing for use in engineering analysis. A preconditioning scheme is presented aimed at avoiding unnecessary ray queries for volumes with high collision densities. A model is also developed to inform the application of the preconditioning data structure based on a post facto analysis. Next, a specialized ray tracing kernel for MCRT is presented. As new ray tracing kernels are developed for real-time, photo-realistic rendering, algorithmic approaches have appeared which are demonstrated to be advantageous when applied in radiation transport. In particular, the application of data parallelism in ray tracing for Monte Carlo is demonstrated - resulting in significant performance improvements. Finally, model features resulting in systematic performance degradation commonly found in CAD models for MCRT are studied. Methods are proposed and demonstrated to improve performance of ray tracing kernels in models with these features. The combination of this work is shown to provide improvement factors ranging from 1.1 to 9.54 in simulation run time without loss of robustness for several production analysis models. The final impact of this work is the alleviation of concern for additional computational time in using CAD geometries for MCRT while maintaining the benefit of reduced human time and effort in model preparation and design.},\n\tlanguage = {English},\n\tschool = {University of Wisconsin-Madison},\n\tauthor = {Shriwise, Patrick},\n\tmonth = jun,\n\tyear = {2018},\n\tkeywords = {CAD, DAGMC, mesh, monte carlo, performance, ray tracing},\n}\n",
         "data": {
             "key": "KV8BMAXT",
-            "version": 30663,
+            "version": 36146,
             "itemType": "thesis",
             "title": "Geometry Query Optimizations in CAD-Based Tessellations for Monte Carlo Radiation Transport",
             "creators": [
@@ -1223,7 +1314,7 @@
                     "tag": "CAD"
                 },
                 {
-                    "tag": "dagmc"
+                    "tag": "DAGMC"
                 },
                 {
                     "tag": "mesh"
@@ -2344,6 +2435,91 @@
         }
     },
     {
+        "key": "5WKCU3AF",
+        "version": 36195,
+        "library": {
+            "type": "group",
+            "id": 10058,
+            "name": "CNERG",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/groups/10058",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/groups/10058/items/5WKCU3AF",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/groups/10058/items/5WKCU3AF",
+                "type": "text/html"
+            }
+        },
+        "meta": {
+            "createdByUser": {
+                "id": 112658,
+                "username": "gonuke",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/gonuke",
+                        "type": "text/html"
+                    }
+                }
+            },
+            "creatorSummary": "Nygaard",
+            "parsedDate": "2011",
+            "numChildren": 0
+        },
+        "bibtex": "\n@phdthesis{nygaard_verification_2011,\n\taddress = {Madison, WI, United States},\n\ttype = {{MS} {Nuclear} {Engineering} and {Engineering} {Physics}},\n\ttitle = {Verification, {Validation}, and {Benchmarking} of the {UWNR} {DAG}-{MCNP5} {Model}},\n\tschool = {University of Wisconsin-Madison},\n\tauthor = {Nygaard, Erik},\n\tyear = {2011},\n}\n",
+        "data": {
+            "key": "5WKCU3AF",
+            "version": 36195,
+            "itemType": "thesis",
+            "title": "Verification, Validation, and Benchmarking of the UWNR DAG-MCNP5 Model",
+            "creators": [
+                {
+                    "creatorType": "author",
+                    "firstName": "Erik",
+                    "lastName": "Nygaard"
+                }
+            ],
+            "abstractNote": "",
+            "thesisType": "MS Nuclear Engineering and Engineering Physics",
+            "university": "University of Wisconsin-Madison",
+            "place": "Madison, WI, United States",
+            "date": "2011",
+            "series": "",
+            "seriesNumber": "",
+            "numPages": "",
+            "DOI": "",
+            "ISBN": "",
+            "citationKey": "",
+            "url": "",
+            "accessDate": "",
+            "ISSN": "",
+            "archive": "",
+            "archiveLocation": "",
+            "shortTitle": "",
+            "language": "",
+            "libraryCatalog": "",
+            "callNumber": "",
+            "rights": "",
+            "extra": "",
+            "tags": [],
+            "collections": [
+                "6259B6TV",
+                "Y4UI9B4X"
+            ],
+            "relations": {},
+            "dateAdded": "2016-11-27T21:57:05Z",
+            "dateModified": "2026-11-06T22:18:32Z"
+        }
+    },
+    {
         "key": "TW3VBHD8",
         "version": 30781,
         "library": {
@@ -2542,91 +2718,6 @@
             "relations": {},
             "dateAdded": "2012-12-07T14:36:11Z",
             "dateModified": "2024-09-08T17:38:42Z"
-        }
-    },
-    {
-        "key": "5WKCU3AF",
-        "version": 26428,
-        "library": {
-            "type": "group",
-            "id": 10058,
-            "name": "CNERG",
-            "links": {
-                "alternate": {
-                    "href": "https://www.zotero.org/groups/10058",
-                    "type": "text/html"
-                }
-            }
-        },
-        "links": {
-            "self": {
-                "href": "https://api.zotero.org/groups/10058/items/5WKCU3AF",
-                "type": "application/json"
-            },
-            "alternate": {
-                "href": "https://www.zotero.org/groups/10058/items/5WKCU3AF",
-                "type": "text/html"
-            }
-        },
-        "meta": {
-            "createdByUser": {
-                "id": 112658,
-                "username": "gonuke",
-                "name": "",
-                "links": {
-                    "alternate": {
-                        "href": "https://www.zotero.org/gonuke",
-                        "type": "text/html"
-                    }
-                }
-            },
-            "creatorSummary": "Nygaard",
-            "parsedDate": "2011",
-            "numChildren": 0
-        },
-        "bibtex": "\n@phdthesis{nygaard_notitle_2011,\n\taddress = {Madison, WI, United States},\n\ttype = {{MS} {Nuclear} {Engineering} and {Engineering} {Physics}},\n\tschool = {University of Wisconsin-Madison},\n\tauthor = {Nygaard, Erik},\n\tyear = {2011},\n}\n",
-        "data": {
-            "key": "5WKCU3AF",
-            "version": 26428,
-            "itemType": "thesis",
-            "title": "",
-            "creators": [
-                {
-                    "creatorType": "author",
-                    "firstName": "Erik",
-                    "lastName": "Nygaard"
-                }
-            ],
-            "abstractNote": "",
-            "thesisType": "MS Nuclear Engineering and Engineering Physics",
-            "university": "University of Wisconsin-Madison",
-            "place": "Madison, WI, United States",
-            "date": "2011",
-            "series": "",
-            "seriesNumber": "",
-            "numPages": "",
-            "DOI": "",
-            "ISBN": "",
-            "citationKey": "",
-            "url": "",
-            "accessDate": "",
-            "ISSN": "",
-            "archive": "",
-            "archiveLocation": "",
-            "shortTitle": "",
-            "language": "",
-            "libraryCatalog": "",
-            "callNumber": "",
-            "rights": "",
-            "extra": "",
-            "tags": [],
-            "collections": [
-                "6259B6TV",
-                "Y4UI9B4X"
-            ],
-            "relations": {},
-            "dateAdded": "2016-11-27T21:57:05Z",
-            "dateModified": "2020-12-30T15:03:12Z"
         }
     },
     {
